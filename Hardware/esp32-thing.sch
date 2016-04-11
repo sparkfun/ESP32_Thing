@@ -21997,7 +21997,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="C26" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="M20" device="NO_SILK_KIT"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="M20" device="NOSILK"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="M20" device="NOSILK"/>
 <part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-4.6X2.8MM" value="BTN-0"/>
 <part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -22010,7 +22010,6 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <sheets>
 <sheet>
 <plain>
-<text x="213.36" y="121.92" size="1.905" layer="91">Double-check that FLASH_SDI and FLASH_SDO aren't reversed</text>
 <text x="355.6" y="154.94" size="1.905" layer="91" font="vector">Boot Mode Configuration
 Pin        Default     Boot   Download
 GPIO0        1         1       0
@@ -22097,8 +22096,14 @@ resistor.</text>
 </instance>
 <instance part="C3" gate="G$1" x="50.8" y="129.54" rot="R90"/>
 <instance part="C4" gate="G$1" x="50.8" y="124.46" rot="MR270"/>
-<instance part="C1" gate="G$1" x="53.34" y="99.06" rot="R90"/>
-<instance part="C2" gate="G$1" x="53.34" y="91.44" rot="R90"/>
+<instance part="C1" gate="G$1" x="53.34" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.673" y="99.568" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="54.991" y="99.568" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C2" gate="G$1" x="53.34" y="91.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.149" y="91.44" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="53.467" y="91.186" size="1.778" layer="96" rot="R270"/>
+</instance>
 <instance part="C5" gate="G$1" x="60.96" y="78.74" rot="R180"/>
 <instance part="R2" gate="G$1" x="66.04" y="76.2" rot="R90"/>
 <instance part="GND3" gate="1" x="71.12" y="63.5"/>
