@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,16 +28,16 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -56,10 +56,10 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -3554,8 +3554,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="C4" library="SparkFun-Capacitors" package="0603" value="10pF" x="18.415" y="33.02">
 <attribute name="PROD_ID" value="CAP-11812" x="14.605" y="29.21" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="C1" library="esp32-thing-temp" package="0603" value="270PF-50V-5%(0603)" x="5.08" y="48.26" rot="R90"/>
-<element name="C2" library="esp32-thing-temp" package="0603" value="270PF-50V-5%(0603)" x="5.08" y="43.18" rot="R270"/>
+<element name="C1" library="esp32-thing-temp" package="0603" value="270pF" x="5.08" y="48.26" rot="R90">
+<attribute name="VALUE" value="270pF" x="5.08" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="CAP-13339" x="5.08" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C2" library="esp32-thing-temp" package="0603" value="270pF" x="5.08" y="43.18" rot="R270">
+<attribute name="VALUE" value="270pF" x="5.08" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="CAP-13339" x="5.08" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="C5" library="SparkFun-Capacitors" package="0603" value="10nF" x="18.415" y="40.64" rot="R180">
 <attribute name="PROD_ID" value="CAP-00867" x="18.415" y="40.64" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
@@ -3681,7 +3687,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="C25" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="5.715" y="34.29" rot="R180">
 <attribute name="PROD_ID" value="CAP-00810" x="5.715" y="34.29" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
-<element name="U2" library="esp32-thing-temp" package="QFN48-0.4MM" value="ESP31" x="12.065" y="34.925" rot="R270">
+<element name="U2" library="esp32-thing-temp" package="QFN48-0.4MM" value="ESP31B" x="12.065" y="34.925" rot="R270">
 <attribute name="PROD_ID" value="IC-13338" x="12.065" y="34.925" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q2" library="esp32-thing-temp" package="SC70-6" value="MBT3904DW1T1" x="16.51" y="19.05" rot="R270">
