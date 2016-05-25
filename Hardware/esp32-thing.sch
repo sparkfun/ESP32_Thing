@@ -22053,16 +22053,16 @@ GPIO0 determines boot mode</text>
 <text x="256.54" y="276.86" size="2.54" layer="94" align="top-left">FT231XS (USB-to-Serial Converter)</text>
 <text x="134.62" y="264.16" size="1.524" layer="97" align="top-left">V_BATT should be a single-
 cell LiPo battery.</text>
-<text x="180.34" y="223.52" size="1.524" layer="97" align="top-right">Charge current:
+<text x="180.34" y="218.44" size="2.032" layer="97" align="top-right">Charge current:
 I_CHG = 1000 / R_PROG
 R_PROG=2k : I_CHG=500mA</text>
 <text x="2.54" y="276.86" size="2.54" layer="94" align="top-left">Voltage Regulator and Battery Charger</text>
-<text x="180.34" y="233.68" size="1.524" layer="97" rot="MR0" align="top-left">SJ1 can be cut to 
+<text x="180.34" y="233.68" size="2.032" layer="97" rot="MR0" align="top-left">SJ1 can be cut to 
 modify the charge-
 current programming
 resistor.</text>
 <text x="132.08" y="276.86" size="2.54" layer="94" align="top-left">Lithium-Polymer Battery Charger (1-cell)</text>
-<text x="55.88" y="215.9" size="1.524" layer="97">600mA out
+<text x="60.96" y="218.44" size="1.778" layer="97" align="top-center">600mA out
 6V max in</text>
 <text x="332.74" y="190.5" size="2.54" layer="94" align="top-left">Auto-Reset</text>
 <text x="40.64" y="38.1" size="1.27" layer="97" align="bottom-center">Near VDDA
@@ -22111,8 +22111,8 @@ resistor.</text>
 <text x="261.62" y="63.5" size="2.54" layer="94" align="top-left">Reset Button</text>
 <text x="200.66" y="53.34" size="2.54" layer="94" align="top-left">GPIO5 LED</text>
 <text x="332.74" y="104.14" size="2.54" layer="94" align="top-left">Headers</text>
-<text x="421.64" y="10.16" size="2.54" layer="94" align="top-left">v01</text>
-<text x="355.6" y="10.16" size="2.54" layer="94" align="top-left">Jim Lindblom</text>
+<text x="421.64" y="10.16" size="2.54" layer="94" align="top-left">v02</text>
+<text x="354.838" y="11.43" size="2.54" layer="94" rot="MR180" align="top-left">Jim Lindblom</text>
 <text x="68.58" y="167.64" size="2.032" layer="97" font="vector" align="bottom-right">ESP32 VCC Range: 2.8-3.6V</text>
 <text x="274.32" y="162.56" size="2.032" layer="97" font="vector">SJ3 allows selection between 
 FLASH_VDD and 3.3V as the
@@ -22130,13 +22130,27 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="R1" gate="G$1" x="302.26" y="45.72" rot="R90"/>
 <instance part="SUPPLY2" gate="G$1" x="302.26" y="53.34"/>
 <instance part="GND2" gate="1" x="43.18" y="119.38"/>
-<instance part="Y1" gate="G$1" x="55.88" y="127" rot="R270">
+<instance part="Y1" gate="G$1" x="55.88" y="127" smashed="yes" rot="R270">
 <attribute name="PROD_ID" x="55.88" y="127" size="2.54" layer="96" rot="R270" display="off"/>
+<attribute name="VALUE" x="57.912" y="125.984" size="1.778" layer="96" align="center-left"/>
+<attribute name="NAME" x="57.912" y="128.016" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="C3" gate="G$1" x="50.8" y="129.54" rot="R90"/>
-<instance part="C4" gate="G$1" x="50.8" y="124.46" rot="MR270"/>
-<instance part="C1" gate="G$1" x="53.34" y="99.06" rot="R90"/>
-<instance part="C2" gate="G$1" x="53.34" y="91.44" rot="MR270"/>
+<instance part="C3" gate="G$1" x="50.8" y="129.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="48.26" y="129.794" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="50.8" y="129.794" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C4" gate="G$1" x="50.8" y="124.46" smashed="yes" rot="MR270">
+<attribute name="NAME" x="48.26" y="124.206" size="1.778" layer="95" font="vector" align="top-right"/>
+<attribute name="VALUE" x="50.8" y="124.206" size="1.778" layer="96" font="vector" rot="MR180"/>
+</instance>
+<instance part="C1" gate="G$1" x="58.42" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="55.88" y="99.314" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="58.42" y="99.314" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="58.42" y="91.44" smashed="yes" rot="MR270">
+<attribute name="NAME" x="55.88" y="91.186" size="1.778" layer="95" align="top-right"/>
+<attribute name="VALUE" x="58.42" y="91.186" size="1.778" layer="96" rot="MR180"/>
+</instance>
 <instance part="C5" gate="G$1" x="60.96" y="78.74" rot="R180"/>
 <instance part="R2" gate="G$1" x="66.04" y="76.2" rot="R90"/>
 <instance part="GND3" gate="1" x="71.12" y="63.5"/>
@@ -22269,8 +22283,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="C26" gate="G$1" x="233.68" y="81.28" rot="MR180"/>
 <instance part="GND20" gate="1" x="223.52" y="71.12"/>
 <instance part="GND23" gate="1" x="233.68" y="71.12"/>
-<instance part="J1" gate="G$1" x="353.06" y="38.1"/>
-<instance part="J2" gate="G$1" x="396.24" y="38.1"/>
+<instance part="J1" gate="G$1" x="353.06" y="40.64"/>
+<instance part="J2" gate="G$1" x="396.24" y="40.64"/>
 <instance part="S2" gate="G$1" x="292.1" y="76.2"/>
 <instance part="GND34" gate="1" x="284.48" y="71.12"/>
 <instance part="LOGO1" gate="G$1" x="271.78" y="2.54"/>
@@ -22280,15 +22294,15 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="LOGO2" gate="G$1" x="12.7" y="10.16"/>
 <instance part="FD1" gate="G$1" x="429.26" y="27.94"/>
 <instance part="FD2" gate="G$1" x="426.72" y="25.4"/>
-<instance part="GND38" gate="1" x="365.76" y="38.1"/>
-<instance part="GND39" gate="1" x="408.94" y="38.1"/>
-<instance part="SUPPLY4" gate="G$1" x="378.46" y="55.88"/>
-<instance part="SUPPLY5" gate="G$1" x="416.56" y="55.88"/>
-<instance part="SUPPLY6" gate="G$1" x="381" y="50.8" smashed="yes">
-<attribute name="VALUE" x="379.984" y="54.356" size="1.778" layer="96"/>
+<instance part="GND38" gate="1" x="365.76" y="40.64"/>
+<instance part="GND39" gate="1" x="408.94" y="40.64"/>
+<instance part="SUPPLY4" gate="G$1" x="378.46" y="58.42"/>
+<instance part="SUPPLY5" gate="G$1" x="416.56" y="58.42"/>
+<instance part="SUPPLY6" gate="G$1" x="381" y="53.34" smashed="yes">
+<attribute name="VALUE" x="379.984" y="56.896" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY15" gate="G$1" x="419.1" y="50.8" smashed="yes">
-<attribute name="VALUE" x="418.084" y="54.356" size="1.778" layer="96"/>
+<instance part="SUPPLY15" gate="G$1" x="419.1" y="53.34" smashed="yes">
+<attribute name="VALUE" x="418.084" y="56.896" size="1.778" layer="96"/>
 </instance>
 <instance part="LOGO3" gate="G$1" x="271.78" y="2.54"/>
 <instance part="U$1" gate="G$1" x="124.46" y="119.38"/>
@@ -22312,9 +22326,6 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <junction x="68.58" y="149.86"/>
 <wire x1="73.66" y1="154.94" x2="68.58" y2="154.94" width="0.1524" layer="91"/>
 <junction x="68.58" y="154.94"/>
-<wire x1="73.66" y1="144.78" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="144.78" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
-<junction x="68.58" y="147.32"/>
 <pinref part="U$1" gate="G$1" pin="VDDA3P3"/>
 <pinref part="U$1" gate="G$1" pin="VDD3P3_RTC"/>
 <pinref part="U$1" gate="G$1" pin="VDD3P3_CPU"/>
@@ -22378,14 +22389,14 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
-<wire x1="363.22" y1="53.34" x2="378.46" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="378.46" y1="53.34" x2="378.46" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="55.88" x2="378.46" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="55.88" x2="378.46" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="5"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
-<wire x1="406.4" y1="53.34" x2="416.56" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="53.34" x2="416.56" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="55.88" x2="416.56" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="416.56" y1="55.88" x2="416.56" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
@@ -22395,8 +22406,9 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 </net>
 <net name="CHIP_PU" class="0">
 <segment>
-<wire x1="73.66" y1="139.7" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
-<label x="71.12" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="73.66" y1="142.24" x2="71.12" y2="142.24" width="0.1524" layer="91"/>
+<label x="71.12" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="CHIP_PU"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
@@ -22414,8 +22426,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="Q2" gate="Q1" pin="C"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="55.88" x2="365.76" y2="55.88" width="0.1524" layer="91"/>
-<label x="365.76" y="55.88" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="58.42" x2="365.76" y2="58.42" width="0.1524" layer="91"/>
+<label x="365.76" y="58.42" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="6"/>
 </segment>
 </net>
@@ -22632,23 +22644,23 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="365.76" y1="43.18" x2="363.22" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="45.72" x2="363.22" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="GND38" gate="1" pin="GND"/>
-<wire x1="365.76" y1="40.64" x2="365.76" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="363.22" y1="50.8" x2="365.76" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="43.18" x2="365.76" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="53.34" x2="365.76" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="365.76" y1="43.18" x2="365.76" y2="50.8" width="0.1524" layer="91"/>
-<junction x="365.76" y="43.18"/>
+<wire x1="365.76" y1="45.72" x2="365.76" y2="53.34" width="0.1524" layer="91"/>
+<junction x="365.76" y="45.72"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="406.4" y1="43.18" x2="408.94" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="406.4" y1="50.8" x2="408.94" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="45.72" x2="408.94" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="53.34" x2="408.94" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="408.94" y1="43.18" x2="408.94" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="408.94" y1="45.72" x2="408.94" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND39" gate="1" pin="GND"/>
-<wire x1="408.94" y1="43.18" x2="408.94" y2="40.64" width="0.1524" layer="91"/>
-<junction x="408.94" y="43.18"/>
+<wire x1="408.94" y1="45.72" x2="408.94" y2="43.18" width="0.1524" layer="91"/>
+<junction x="408.94" y="45.72"/>
 </segment>
 <segment>
 <pinref part="S2" gate="G$1" pin="1"/>
@@ -22689,8 +22701,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <label x="220.98" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="81.28" x2="365.76" y2="81.28" width="0.1524" layer="91"/>
-<label x="365.76" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="83.82" x2="365.76" y2="83.82" width="0.1524" layer="91"/>
+<label x="365.76" y="83.82" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="16"/>
 </segment>
 </net>
@@ -22710,8 +22722,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <label x="236.22" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="78.74" x2="365.76" y2="78.74" width="0.1524" layer="91"/>
-<label x="365.76" y="78.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="81.28" x2="365.76" y2="81.28" width="0.1524" layer="91"/>
+<label x="365.76" y="81.28" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="15"/>
 </segment>
 </net>
@@ -22722,8 +22734,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="VDET_1(GPI34/ADC1:6)"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="76.2" x2="365.76" y2="76.2" width="0.1524" layer="91"/>
-<label x="365.76" y="76.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="78.74" x2="365.76" y2="78.74" width="0.1524" layer="91"/>
+<label x="365.76" y="78.74" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="14"/>
 </segment>
 </net>
@@ -22734,64 +22746,64 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="VDET_2(GPI35/ADC1:7)"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="73.66" x2="365.76" y2="73.66" width="0.1524" layer="91"/>
-<label x="365.76" y="73.66" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="76.2" x2="365.76" y2="76.2" width="0.1524" layer="91"/>
+<label x="365.76" y="76.2" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="13"/>
 </segment>
 </net>
 <net name="39" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="91.44" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
-<label x="68.58" y="91.44" size="1.27" layer="95"/>
+<wire x1="73.66" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
+<label x="68.58" y="91.44" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="SENSOR_VN(GPI39/ADC1:3/RTC3)"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="83.82" x2="365.76" y2="83.82" width="0.1524" layer="91"/>
-<label x="365.76" y="83.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="86.36" x2="365.76" y2="86.36" width="0.1524" layer="91"/>
+<label x="365.76" y="86.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="17"/>
 </segment>
 </net>
 <net name="38" class="0">
 <segment>
-<wire x1="73.66" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="93.98" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="93.98" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="91.44" x2="48.26" y2="91.44" width="0.1524" layer="91"/>
-<label x="68.58" y="93.98" size="1.27" layer="95"/>
+<wire x1="50.8" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
+<label x="68.58" y="93.98" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="SENSOR_CAPN(GPI38/ADC1:2/RTC2)"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="86.36" x2="365.76" y2="86.36" width="0.1524" layer="91"/>
-<label x="365.76" y="86.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="88.9" x2="365.76" y2="88.9" width="0.1524" layer="91"/>
+<label x="365.76" y="88.9" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="18"/>
 </segment>
 </net>
 <net name="36" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
-<label x="68.58" y="99.06" size="1.27" layer="95"/>
+<wire x1="60.96" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
+<label x="68.58" y="99.06" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="SENSOR_VP(GPI36/ADC1:0/RTC0)"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="91.44" x2="365.76" y2="91.44" width="0.1524" layer="91"/>
-<label x="365.76" y="91.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="93.98" x2="365.76" y2="93.98" width="0.1524" layer="91"/>
+<label x="365.76" y="93.98" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="20"/>
 </segment>
 </net>
 <net name="37" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="99.06" x2="45.72" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="99.06" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
-<label x="68.58" y="96.52" size="1.27" layer="95"/>
+<wire x1="53.34" y1="99.06" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="99.06" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
+<label x="68.58" y="96.52" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="SENSOR_CAPP(GPI37/ADC1:1/RTC1)"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="88.9" x2="365.76" y2="88.9" width="0.1524" layer="91"/>
-<label x="365.76" y="88.9" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="91.44" x2="365.76" y2="91.44" width="0.1524" layer="91"/>
+<label x="365.76" y="91.44" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="19"/>
 </segment>
 </net>
@@ -22818,8 +22830,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(GPIO15/ADC2:3/TOUCH3/RTC13/SPICSO/U0RTS)MTDO"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="68.58" x2="408.94" y2="68.58" width="0.1524" layer="91"/>
-<label x="408.94" y="68.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="71.12" x2="408.94" y2="71.12" width="0.1524" layer="91"/>
+<label x="408.94" y="71.12" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="11"/>
 </segment>
 </net>
@@ -22830,8 +22842,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(GPIO14/ADC2:6/TOUCH6/RTC16/SPICLK)MTMS"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="63.5" x2="365.76" y2="63.5" width="0.1524" layer="91"/>
-<label x="365.76" y="63.5" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="66.04" x2="365.76" y2="66.04" width="0.1524" layer="91"/>
+<label x="365.76" y="66.04" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="9"/>
 </segment>
 </net>
@@ -22842,8 +22854,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(GPIO13/ADC2:4/TOUCH4/RTC14/SPID/U0CTS)MTCK"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="58.42" x2="365.76" y2="58.42" width="0.1524" layer="91"/>
-<label x="365.76" y="58.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="60.96" x2="365.76" y2="60.96" width="0.1524" layer="91"/>
+<label x="365.76" y="60.96" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="7"/>
 </segment>
 </net>
@@ -22854,8 +22866,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(GPIO12/ADC2:5/TOUCH5/RTC15/SPIQ)MTDI"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="60.96" x2="365.76" y2="60.96" width="0.1524" layer="91"/>
-<label x="365.76" y="60.96" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="63.5" x2="365.76" y2="63.5" width="0.1524" layer="91"/>
+<label x="365.76" y="63.5" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="8"/>
 </segment>
 </net>
@@ -22971,8 +22983,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(ADC2:7/TOUCH7/RTC17)GPIO27"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="66.04" x2="365.76" y2="66.04" width="0.1524" layer="91"/>
-<label x="365.76" y="66.04" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="68.58" x2="365.76" y2="68.58" width="0.1524" layer="91"/>
+<label x="365.76" y="68.58" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="10"/>
 </segment>
 </net>
@@ -22983,15 +22995,15 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(DAC2/ADC2:9/RTC7)GPIO26"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="68.58" x2="365.76" y2="68.58" width="0.1524" layer="91"/>
-<label x="365.76" y="68.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="71.12" x2="365.76" y2="71.12" width="0.1524" layer="91"/>
+<label x="365.76" y="71.12" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="23" class="0">
 <segment>
-<wire x1="406.4" y1="76.2" x2="408.94" y2="76.2" width="0.1524" layer="91"/>
-<label x="408.94" y="76.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="78.74" x2="408.94" y2="78.74" width="0.1524" layer="91"/>
+<label x="408.94" y="78.74" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="14"/>
 </segment>
 <segment>
@@ -23007,8 +23019,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(VSPIWP/HS2_CLK)GPIO22"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="83.82" x2="408.94" y2="83.82" width="0.1524" layer="91"/>
-<label x="408.94" y="83.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="86.36" x2="408.94" y2="86.36" width="0.1524" layer="91"/>
+<label x="408.94" y="86.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="17"/>
 </segment>
 </net>
@@ -23019,8 +23031,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(VSPIHD/HS2_CMD)GPIO21"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="86.36" x2="408.94" y2="86.36" width="0.1524" layer="91"/>
-<label x="408.94" y="86.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="88.9" x2="408.94" y2="88.9" width="0.1524" layer="91"/>
+<label x="408.94" y="88.9" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="18"/>
 </segment>
 </net>
@@ -23031,8 +23043,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(VSPID/HS2_DATA3)GPIO20"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="81.28" x2="408.94" y2="81.28" width="0.1524" layer="91"/>
-<label x="408.94" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="83.82" x2="408.94" y2="83.82" width="0.1524" layer="91"/>
+<label x="408.94" y="83.82" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="16"/>
 </segment>
 </net>
@@ -23043,8 +23055,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(VSPIQ/HS2_DATA2)GPIO19"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="78.74" x2="408.94" y2="78.74" width="0.1524" layer="91"/>
-<label x="408.94" y="78.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="81.28" x2="408.94" y2="81.28" width="0.1524" layer="91"/>
+<label x="408.94" y="81.28" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="15"/>
 </segment>
 </net>
@@ -23055,8 +23067,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(VSPICLK/HS1_DATA7)GPIO18"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="73.66" x2="408.94" y2="73.66" width="0.1524" layer="91"/>
-<label x="408.94" y="73.66" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="76.2" x2="408.94" y2="76.2" width="0.1524" layer="91"/>
+<label x="408.94" y="76.2" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="13"/>
 </segment>
 </net>
@@ -23067,8 +23079,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(HS1_DATA4)GPIO16"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="55.88" x2="408.94" y2="55.88" width="0.1524" layer="91"/>
-<label x="408.94" y="55.88" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="58.42" x2="408.94" y2="58.42" width="0.1524" layer="91"/>
+<label x="408.94" y="58.42" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="6"/>
 </segment>
 </net>
@@ -23079,8 +23091,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(VSPICS0/HS1_DATA6)GPIO5"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="71.12" x2="408.94" y2="71.12" width="0.1524" layer="91"/>
-<label x="408.94" y="71.12" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="73.66" x2="408.94" y2="73.66" width="0.1524" layer="91"/>
+<label x="408.94" y="73.66" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="12"/>
 </segment>
 <segment>
@@ -23097,8 +23109,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(ADC2:0/TOUCH0/RTC10/SPIHD)GPIO4"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="60.96" x2="408.94" y2="60.96" width="0.1524" layer="91"/>
-<label x="408.94" y="60.96" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="63.5" x2="408.94" y2="63.5" width="0.1524" layer="91"/>
+<label x="408.94" y="63.5" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="8"/>
 </segment>
 </net>
@@ -23109,8 +23121,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(ADC2:2/TOUCH2/RTC12/SPIWP)GPIO2"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="66.04" x2="408.94" y2="66.04" width="0.1524" layer="91"/>
-<label x="408.94" y="66.04" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="68.58" x2="408.94" y2="68.58" width="0.1524" layer="91"/>
+<label x="408.94" y="68.58" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="10"/>
 </segment>
 </net>
@@ -23126,8 +23138,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <wire x1="391.16" y1="254" x2="393.7" y2="254" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="91.44" x2="408.94" y2="91.44" width="0.1524" layer="91"/>
-<label x="408.94" y="91.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="93.98" x2="408.94" y2="93.98" width="0.1524" layer="91"/>
+<label x="408.94" y="93.98" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="20"/>
 </segment>
 </net>
@@ -23143,8 +23155,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <wire x1="391.16" y1="251.46" x2="393.7" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="88.9" x2="408.94" y2="88.9" width="0.1524" layer="91"/>
-<label x="408.94" y="88.9" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="91.44" x2="408.94" y2="91.44" width="0.1524" layer="91"/>
+<label x="408.94" y="91.44" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="19"/>
 </segment>
 </net>
@@ -23155,8 +23167,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(DAC1/ADC2:8/RTC6)GPIO25"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="71.12" x2="365.76" y2="71.12" width="0.1524" layer="91"/>
-<label x="365.76" y="71.12" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="73.66" x2="365.76" y2="73.66" width="0.1524" layer="91"/>
+<label x="365.76" y="73.66" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="12"/>
 </segment>
 </net>
@@ -23276,13 +23288,13 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <label x="297.18" y="254" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="45.72" x2="368.3" y2="45.72" width="0.1524" layer="91"/>
-<label x="368.3" y="45.72" size="1.27" layer="95" xref="yes"/>
+<wire x1="363.22" y1="48.26" x2="368.3" y2="48.26" width="0.1524" layer="91"/>
+<label x="368.3" y="48.26" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="45.72" x2="411.48" y2="45.72" width="0.1524" layer="91"/>
-<label x="411.48" y="45.72" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="48.26" x2="411.48" y2="48.26" width="0.1524" layer="91"/>
+<label x="411.48" y="48.26" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -23420,14 +23432,14 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <pinref part="SUPPLY6" gate="G$1" pin="V_BATT"/>
-<wire x1="363.22" y1="48.26" x2="381" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="381" y1="48.26" x2="381" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="50.8" x2="381" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="381" y1="50.8" x2="381" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
 <pinref part="SUPPLY15" gate="G$1" pin="V_BATT"/>
-<wire x1="406.4" y1="48.26" x2="419.1" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="419.1" y1="48.26" x2="419.1" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="50.8" x2="419.1" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="50.8" x2="419.1" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -23486,8 +23498,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <wire x1="375.92" y1="119.38" x2="375.92" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="63.5" x2="408.94" y2="63.5" width="0.1524" layer="91"/>
-<label x="408.94" y="63.5" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="66.04" x2="408.94" y2="66.04" width="0.1524" layer="91"/>
+<label x="408.94" y="66.04" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="9"/>
 </segment>
 <segment>
@@ -23507,8 +23519,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U$1" gate="G$1" pin="(HS1_DATA5)GPIO17"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="58.42" x2="408.94" y2="58.42" width="0.1524" layer="91"/>
-<label x="408.94" y="58.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="406.4" y1="60.96" x2="408.94" y2="60.96" width="0.1524" layer="91"/>
+<label x="408.94" y="60.96" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="7"/>
 </segment>
 </net>
