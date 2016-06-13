@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -152,7 +152,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="1_/%S.%C%R">
 <libraries>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
@@ -22036,6 +22036,8 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH" value="SFE_LOGO_NAME.1_INCH"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22290,6 +22292,8 @@ power saving).</text>
 <attribute name="VALUE" x="418.084" y="54.356" size="1.778" layer="96"/>
 </instance>
 <instance part="LOGO3" gate="G$1" x="271.78" y="2.54"/>
+<instance part="R9" gate="G$1" x="345.44" y="127" rot="R270"/>
+<instance part="SUPPLY17" gate="G$1" x="345.44" y="134.62"/>
 </instances>
 <busses>
 </busses>
@@ -22383,6 +22387,11 @@ power saving).</text>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
 <wire x1="406.4" y1="53.34" x2="416.56" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="416.56" y1="53.34" x2="416.56" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="345.44" y1="134.62" x2="345.44" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CHIP_PU" class="0">
@@ -23468,10 +23477,14 @@ power saving).</text>
 <pinref part="U2" gate="G$1" pin="(ADC2:1/TOUCH1/RTC11/CLK_OUT1)GPIO0"/>
 </segment>
 <segment>
-<wire x1="375.92" y1="114.3" x2="373.38" y2="114.3" width="0.1524" layer="91"/>
-<label x="373.38" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="375.92" y1="114.3" x2="345.44" y2="114.3" width="0.1524" layer="91"/>
+<label x="337.82" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="Q2" gate="Q2" pin="C"/>
+<wire x1="345.44" y1="114.3" x2="337.82" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="114.3" x2="375.92" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="345.44" y1="121.92" x2="345.44" y2="114.3" width="0.1524" layer="91"/>
+<junction x="345.44" y="114.3"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="63.5" x2="408.94" y2="63.5" width="0.1524" layer="91"/>
