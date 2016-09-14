@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1353,6 +1353,58 @@
 <text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="ESP32-2">
+<pin name="SENSOR_CAPP(GPI37/ADC1:1/RTC1)" x="-50.8" y="-20.32" length="short"/>
+<pin name="SENSOR_VP(GPI36/ADC1:0/RTC0)" x="-50.8" y="-17.78" length="short"/>
+<pin name="VDDA3P3" x="-50.8" y="30.48" length="short"/>
+<pin name="LNA_IN" x="-50.8" y="17.78" length="short"/>
+<pin name="SENSOR_CAPN(GPI38/ADC1:2/RTC2)" x="-50.8" y="-22.86" length="short"/>
+<pin name="SENSOR_VN(GPI39/ADC1:3/RTC3)" x="-50.8" y="-25.4" length="short"/>
+<pin name="CHIP_PU" x="-50.8" y="25.4" length="short"/>
+<pin name="VDET_1(GPI34/ADC1:6)" x="-50.8" y="-7.62" length="short"/>
+<pin name="VDET_2(GPI35/ADC1:7)" x="-50.8" y="-10.16" length="short"/>
+<pin name="32K_XP(GPIO32/ADC1:4/TOUCH9/RTC9)" x="-50.8" y="2.54" length="short"/>
+<pin name="32K_XN(GPIO33/ADC1:5/TOUCH8/RTC8)" x="-50.8" y="0" length="short"/>
+<pin name="(DAC2/ADC2:9/RTC7)GPIO26" x="50.8" y="-2.54" length="short" rot="R180"/>
+<pin name="(DAC1/ADC2:8/RTC6)GPIO25" x="50.8" y="0" length="short" rot="R180"/>
+<pin name="(ADC2:7/TOUCH7/RTC17)GPIO27" x="50.8" y="-5.08" length="short" rot="R180"/>
+<pin name="(GPIO14/ADC2:6/TOUCH6/RTC16/SPICLK)MTMS" x="50.8" y="-35.56" length="short" rot="R180"/>
+<pin name="(GPIO12/ADC2:5/TOUCH5/RTC15/SPIQ)MTDI" x="50.8" y="-30.48" length="short" rot="R180"/>
+<pin name="VDD3P3_RTC" x="-50.8" y="35.56" length="short"/>
+<pin name="(GPIO13/ADC2:4/TOUCH4/RTC14/SPID/U0CTS)MTCK" x="50.8" y="-33.02" length="short" rot="R180"/>
+<pin name="(GPIO15/ADC2:3/TOUCH3/RTC13/SPICSO/U0RTS)MTDO" x="50.8" y="-38.1" length="short" rot="R180"/>
+<pin name="(ADC2:2/TOUCH2/RTC12/SPIWP)GPIO2" x="50.8" y="27.94" length="short" rot="R180"/>
+<pin name="(ADC2:1/TOUCH1/RTC11/CLK_OUT1)GPIO0" x="50.8" y="30.48" length="short" rot="R180"/>
+<pin name="(ADC2:0/TOUCH0/RTC10/SPIHD)GPIO4" x="50.8" y="25.4" length="short" rot="R180"/>
+<pin name="VDD3P3_SDIO" x="50.8" y="-10.16" length="short" rot="R180"/>
+<pin name="(HS1_DATA4)GPIO16" x="50.8" y="20.32" length="short" rot="R180"/>
+<pin name="(HS1_DATA5)GPIO17" x="50.8" y="17.78" length="short" rot="R180"/>
+<pin name="(GPIO9/SPIHD/HS1_DATA2/U1RX)SD_DATA2" x="50.8" y="-20.32" length="short" rot="R180"/>
+<pin name="(GPIO10/SPIWP/HS1_DATA3/U1TX)SD_DATA3" x="50.8" y="-22.86" length="short" rot="R180"/>
+<pin name="(GPIO11/SPICSO/HS1_CMD/U1RTS)SD_CMD" x="50.8" y="-25.4" length="short" rot="R180"/>
+<pin name="(GPIO6/SPICLK/HS1_CLK/U1CTS)SD_CLK" x="50.8" y="-12.7" length="short" rot="R180"/>
+<pin name="(GPIO7/SPI1/HS1_DATA0)SD_DATA0" x="50.8" y="-15.24" length="short" rot="R180"/>
+<pin name="(GPIO8/SPID/HS1_DATA1)SD_DATA1" x="50.8" y="-17.78" length="short" rot="R180"/>
+<pin name="(VSPICS0/HS1_DATA6)GPIO5" x="50.8" y="22.86" length="short" rot="R180"/>
+<pin name="(VSPICLK/HS1_DATA7)GPIO18" x="50.8" y="15.24" length="short" rot="R180"/>
+<pin name="(GPIO1/CLK_OUT3/HS2_DATA1)U0TXD" x="50.8" y="38.1" length="short" rot="R180"/>
+<pin name="(GPIO3/CLK_OUT2/HS2_DATA0)U0RXD" x="50.8" y="35.56" length="short" rot="R180"/>
+<pin name="GPIO23" x="50.8" y="2.54" length="short" rot="R180"/>
+<pin name="(VSPIWP/HS2_CLK)GPIO22" x="50.8" y="5.08" length="short" rot="R180"/>
+<pin name="(VSPIQ/HS2_DATA2)GPIO19" x="50.8" y="12.7" length="short" rot="R180"/>
+<pin name="VDD3P3_CPU" x="-50.8" y="38.1" length="short"/>
+<pin name="XTAL_N" x="-50.8" y="7.62" length="short"/>
+<pin name="XTAL_P" x="-50.8" y="10.16" length="short"/>
+<pin name="VDDA" x="-50.8" y="33.02" length="short"/>
+<pin name="RES_14K" x="-50.8" y="-33.02" length="short"/>
+<pin name="CAP_10N" x="-50.8" y="-30.48" length="short"/>
+<pin name="GND" x="-50.8" y="-38.1" length="short"/>
+<pin name="(VSPIHD/HS2_CMD)GPIO21" x="50.8" y="7.62" length="short" rot="R180"/>
+<wire x1="48.26" y1="40.64" x2="-48.26" y2="40.64" width="0.254" layer="94"/>
+<wire x1="-48.26" y1="40.64" x2="-48.26" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-48.26" y1="-40.64" x2="48.26" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-40.64" x2="48.26" y2="40.64" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ESP32">
@@ -1655,6 +1707,66 @@ Chip antenna with ground or secondary connection. Common with larger metal RF co
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESP32-2">
+<gates>
+<gate name="G$1" symbol="ESP32-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN48-0.4MM">
+<connects>
+<connect gate="G$1" pin="(ADC2:0/TOUCH0/RTC10/SPIHD)GPIO4" pad="24"/>
+<connect gate="G$1" pin="(ADC2:1/TOUCH1/RTC11/CLK_OUT1)GPIO0" pad="23"/>
+<connect gate="G$1" pin="(ADC2:2/TOUCH2/RTC12/SPIWP)GPIO2" pad="22"/>
+<connect gate="G$1" pin="(ADC2:7/TOUCH7/RTC17)GPIO27" pad="16"/>
+<connect gate="G$1" pin="(DAC1/ADC2:8/RTC6)GPIO25" pad="14"/>
+<connect gate="G$1" pin="(DAC2/ADC2:9/RTC7)GPIO26" pad="15"/>
+<connect gate="G$1" pin="(GPIO1/CLK_OUT3/HS2_DATA1)U0TXD" pad="41"/>
+<connect gate="G$1" pin="(GPIO10/SPIWP/HS1_DATA3/U1TX)SD_DATA3" pad="29"/>
+<connect gate="G$1" pin="(GPIO11/SPICSO/HS1_CMD/U1RTS)SD_CMD" pad="30"/>
+<connect gate="G$1" pin="(GPIO12/ADC2:5/TOUCH5/RTC15/SPIQ)MTDI" pad="18"/>
+<connect gate="G$1" pin="(GPIO13/ADC2:4/TOUCH4/RTC14/SPID/U0CTS)MTCK" pad="20"/>
+<connect gate="G$1" pin="(GPIO14/ADC2:6/TOUCH6/RTC16/SPICLK)MTMS" pad="17"/>
+<connect gate="G$1" pin="(GPIO15/ADC2:3/TOUCH3/RTC13/SPICSO/U0RTS)MTDO" pad="21"/>
+<connect gate="G$1" pin="(GPIO3/CLK_OUT2/HS2_DATA0)U0RXD" pad="40"/>
+<connect gate="G$1" pin="(GPIO6/SPICLK/HS1_CLK/U1CTS)SD_CLK" pad="31"/>
+<connect gate="G$1" pin="(GPIO7/SPI1/HS1_DATA0)SD_DATA0" pad="32"/>
+<connect gate="G$1" pin="(GPIO8/SPID/HS1_DATA1)SD_DATA1" pad="33"/>
+<connect gate="G$1" pin="(GPIO9/SPIHD/HS1_DATA2/U1RX)SD_DATA2" pad="28"/>
+<connect gate="G$1" pin="(HS1_DATA4)GPIO16" pad="25"/>
+<connect gate="G$1" pin="(HS1_DATA5)GPIO17" pad="27"/>
+<connect gate="G$1" pin="(VSPICLK/HS1_DATA7)GPIO18" pad="35"/>
+<connect gate="G$1" pin="(VSPICS0/HS1_DATA6)GPIO5" pad="34"/>
+<connect gate="G$1" pin="(VSPIHD/HS2_CMD)GPIO21" pad="42"/>
+<connect gate="G$1" pin="(VSPIQ/HS2_DATA2)GPIO19" pad="38"/>
+<connect gate="G$1" pin="(VSPIWP/HS2_CLK)GPIO22" pad="39"/>
+<connect gate="G$1" pin="32K_XN(GPIO33/ADC1:5/TOUCH8/RTC8)" pad="13"/>
+<connect gate="G$1" pin="32K_XP(GPIO32/ADC1:4/TOUCH9/RTC9)" pad="12"/>
+<connect gate="G$1" pin="CAP_10N" pad="48"/>
+<connect gate="G$1" pin="CHIP_PU" pad="9"/>
+<connect gate="G$1" pin="GND" pad="EP"/>
+<connect gate="G$1" pin="GPIO23" pad="36"/>
+<connect gate="G$1" pin="LNA_IN" pad="2"/>
+<connect gate="G$1" pin="RES_14K" pad="47"/>
+<connect gate="G$1" pin="SENSOR_CAPN(GPI38/ADC1:2/RTC2)" pad="7"/>
+<connect gate="G$1" pin="SENSOR_CAPP(GPI37/ADC1:1/RTC1)" pad="6"/>
+<connect gate="G$1" pin="SENSOR_VN(GPI39/ADC1:3/RTC3)" pad="8"/>
+<connect gate="G$1" pin="SENSOR_VP(GPI36/ADC1:0/RTC0)" pad="5"/>
+<connect gate="G$1" pin="VDD3P3_CPU" pad="37"/>
+<connect gate="G$1" pin="VDD3P3_RTC" pad="19"/>
+<connect gate="G$1" pin="VDD3P3_SDIO" pad="26"/>
+<connect gate="G$1" pin="VDDA" pad="1 43 46"/>
+<connect gate="G$1" pin="VDDA3P3" pad="3 4"/>
+<connect gate="G$1" pin="VDET_1(GPI34/ADC1:6)" pad="10"/>
+<connect gate="G$1" pin="VDET_2(GPI35/ADC1:7)" pad="11"/>
+<connect gate="G$1" pin="XTAL_N" pad="44"/>
+<connect gate="G$1" pin="XTAL_P" pad="45"/>
 </connects>
 <technologies>
 <technology name=""/>

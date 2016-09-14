@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -16430,6 +16430,27 @@ CAP-09321</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="3.3NF" prefix="C">
+<description>&lt;h3&gt;3.3nF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-100V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09633" constant="no"/>
+<attribute name="VALUE" value="3.3nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="things">
@@ -21401,58 +21422,57 @@ FQP27P06 -
 <text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="ESP32">
-<pin name="SENSOR_CAPP(GPI37/ADC1:1/RTC1)" x="-50.8" y="-22.86" length="short"/>
-<pin name="SENSOR_VP(GPI36/ADC1:0/RTC0)" x="-50.8" y="-20.32" length="short"/>
-<pin name="VDDA3P3" x="-50.8" y="27.94" length="short"/>
-<pin name="LNA_IN" x="-50.8" y="15.24" length="short"/>
-<pin name="SENSOR_CAPN(GPI38/ADC1:2/RTC2)" x="-50.8" y="-25.4" length="short"/>
-<pin name="SENSOR_VN(GPI39/ADC1:3/RTC3)" x="-50.8" y="-27.94" length="short"/>
-<pin name="CHIP_PU" x="-50.8" y="22.86" length="short"/>
-<pin name="VDET_1(GPI34/ADC1:6)" x="-50.8" y="-10.16" length="short"/>
-<pin name="VDET_2(GPI35/ADC1:7)" x="-50.8" y="-12.7" length="short"/>
-<pin name="32K_XP(GPIO32/ADC1:4/TOUCH9/RTC9)" x="-50.8" y="0" length="short"/>
-<pin name="32K_XN(GPIO33/ADC1:5/TOUCH8/RTC8)" x="-50.8" y="-2.54" length="short"/>
-<pin name="(DAC2/ADC2:9/RTC7)GPIO26" x="50.8" y="-5.08" length="short" rot="R180"/>
-<pin name="(DAC1/ADC2:8/RTC6)GPIO25" x="50.8" y="-2.54" length="short" rot="R180"/>
-<pin name="(ADC2:7/TOUCH7/RTC17)GPIO27" x="50.8" y="-7.62" length="short" rot="R180"/>
-<pin name="(GPIO14/ADC2:6/TOUCH6/RTC16/SPICLK)MTMS" x="50.8" y="-38.1" length="short" rot="R180"/>
-<pin name="(GPIO12/ADC2:5/TOUCH5/RTC15/SPIQ)MTDI" x="50.8" y="-33.02" length="short" rot="R180"/>
-<pin name="VDD3P3_RTC" x="-50.8" y="33.02" length="short"/>
-<pin name="(GPIO13/ADC2:4/TOUCH4/RTC14/SPID/U0CTS)MTCK" x="50.8" y="-35.56" length="short" rot="R180"/>
-<pin name="(GPIO15/ADC2:3/TOUCH3/RTC13/SPICSO/U0RTS)MTDO" x="50.8" y="-40.64" length="short" rot="R180"/>
-<pin name="(ADC2:2/TOUCH2/RTC12/SPIWP)GPIO2" x="50.8" y="25.4" length="short" rot="R180"/>
-<pin name="(ADC2:1/TOUCH1/RTC11/CLK_OUT1)GPIO0" x="50.8" y="27.94" length="short" rot="R180"/>
-<pin name="(ADC2:0/TOUCH0/RTC10/SPIHD)GPIO4" x="50.8" y="22.86" length="short" rot="R180"/>
-<pin name="VDD3P3_SDIO" x="50.8" y="-12.7" length="short" rot="R180"/>
-<pin name="(HS1_DATA4)GPIO16" x="50.8" y="17.78" length="short" rot="R180"/>
-<pin name="(HS1_DATA5)GPIO17" x="50.8" y="15.24" length="short" rot="R180"/>
-<pin name="(GPIO9/SPIHD/HS1_DATA2/U1RX)SD_DATA2" x="50.8" y="-22.86" length="short" rot="R180"/>
-<pin name="(GPIO10/SPIWP/HS1_DATA3/U1TX)SD_DATA3" x="50.8" y="-25.4" length="short" rot="R180"/>
-<pin name="(GPIO11/SPICSO/HS1_CMD/U1RTS)SD_CMD" x="50.8" y="-27.94" length="short" rot="R180"/>
-<pin name="(GPIO6/SPICLK/HS1_CLK/U1CTS)SD_CLK" x="50.8" y="-15.24" length="short" rot="R180"/>
-<pin name="(GPIO7/SPI1/HS1_DATA0)SD_DATA0" x="50.8" y="-17.78" length="short" rot="R180"/>
-<pin name="(GPIO8/SPID/HS1_DATA1)SD_DATA1" x="50.8" y="-20.32" length="short" rot="R180"/>
-<pin name="(VSPICS0/HS1_DATA6)GPIO5" x="50.8" y="20.32" length="short" rot="R180"/>
-<pin name="(VSPICLK/HS1_DATA7)GPIO18" x="50.8" y="12.7" length="short" rot="R180"/>
-<pin name="(GPIO1/CLK_OUT3/HS2_DATA1)U0TXD" x="50.8" y="35.56" length="short" rot="R180"/>
-<pin name="(GPIO3/CLK_OUT2/HS2_DATA0)U0RXD" x="50.8" y="33.02" length="short" rot="R180"/>
-<pin name="GPIO23" x="50.8" y="0" length="short" rot="R180"/>
-<pin name="(VSPIWP/HS2_CLK)GPIO22" x="50.8" y="2.54" length="short" rot="R180"/>
-<pin name="(VSPID/HS2_DATA3)GPIO20" x="50.8" y="7.62" length="short" rot="R180"/>
-<pin name="(VSPIQ/HS2_DATA2)GPIO19" x="50.8" y="10.16" length="short" rot="R180"/>
-<pin name="VDD3P3_CPU" x="-50.8" y="35.56" length="short"/>
-<pin name="XTAL_N" x="-50.8" y="5.08" length="short"/>
-<pin name="XTAL_P" x="-50.8" y="7.62" length="short"/>
-<pin name="VDDA" x="-50.8" y="30.48" length="short"/>
-<pin name="RES_14K" x="-50.8" y="-35.56" length="short"/>
-<pin name="CAP_10N" x="-50.8" y="-33.02" length="short"/>
-<pin name="GND" x="-50.8" y="-40.64" length="short"/>
-<pin name="(VSPIHD/HS2_CMD)GPIO21" x="50.8" y="5.08" length="short" rot="R180"/>
-<wire x1="48.26" y1="38.1" x2="-48.26" y2="38.1" width="0.254" layer="94"/>
-<wire x1="-48.26" y1="38.1" x2="-48.26" y2="-43.18" width="0.254" layer="94"/>
-<wire x1="-48.26" y1="-43.18" x2="48.26" y2="-43.18" width="0.254" layer="94"/>
-<wire x1="48.26" y1="-43.18" x2="48.26" y2="38.1" width="0.254" layer="94"/>
+<symbol name="ESP32-2">
+<pin name="SENSOR_CAPP(GPI37/ADC1:1/RTC1)" x="-50.8" y="-20.32" length="short"/>
+<pin name="SENSOR_VP(GPI36/ADC1:0/RTC0)" x="-50.8" y="-17.78" length="short"/>
+<pin name="VDDA3P3" x="-50.8" y="30.48" length="short"/>
+<pin name="LNA_IN" x="-50.8" y="17.78" length="short"/>
+<pin name="SENSOR_CAPN(GPI38/ADC1:2/RTC2)" x="-50.8" y="-22.86" length="short"/>
+<pin name="SENSOR_VN(GPI39/ADC1:3/RTC3)" x="-50.8" y="-25.4" length="short"/>
+<pin name="CHIP_PU" x="-50.8" y="25.4" length="short"/>
+<pin name="VDET_1(GPI34/ADC1:6)" x="-50.8" y="-7.62" length="short"/>
+<pin name="VDET_2(GPI35/ADC1:7)" x="-50.8" y="-10.16" length="short"/>
+<pin name="32K_XP(GPIO32/ADC1:4/TOUCH9/RTC9)" x="-50.8" y="2.54" length="short"/>
+<pin name="32K_XN(GPIO33/ADC1:5/TOUCH8/RTC8)" x="-50.8" y="0" length="short"/>
+<pin name="(DAC2/ADC2:9/RTC7)GPIO26" x="50.8" y="-2.54" length="short" rot="R180"/>
+<pin name="(DAC1/ADC2:8/RTC6)GPIO25" x="50.8" y="0" length="short" rot="R180"/>
+<pin name="(ADC2:7/TOUCH7/RTC17)GPIO27" x="50.8" y="-5.08" length="short" rot="R180"/>
+<pin name="(GPIO14/ADC2:6/TOUCH6/RTC16/SPICLK)MTMS" x="50.8" y="-35.56" length="short" rot="R180"/>
+<pin name="(GPIO12/ADC2:5/TOUCH5/RTC15/SPIQ)MTDI" x="50.8" y="-30.48" length="short" rot="R180"/>
+<pin name="VDD3P3_RTC" x="-50.8" y="35.56" length="short"/>
+<pin name="(GPIO13/ADC2:4/TOUCH4/RTC14/SPID/U0CTS)MTCK" x="50.8" y="-33.02" length="short" rot="R180"/>
+<pin name="(GPIO15/ADC2:3/TOUCH3/RTC13/SPICSO/U0RTS)MTDO" x="50.8" y="-38.1" length="short" rot="R180"/>
+<pin name="(ADC2:2/TOUCH2/RTC12/SPIWP)GPIO2" x="50.8" y="27.94" length="short" rot="R180"/>
+<pin name="(ADC2:1/TOUCH1/RTC11/CLK_OUT1)GPIO0" x="50.8" y="30.48" length="short" rot="R180"/>
+<pin name="(ADC2:0/TOUCH0/RTC10/SPIHD)GPIO4" x="50.8" y="25.4" length="short" rot="R180"/>
+<pin name="VDD3P3_SDIO" x="50.8" y="-10.16" length="short" rot="R180"/>
+<pin name="(HS1_DATA4)GPIO16" x="50.8" y="20.32" length="short" rot="R180"/>
+<pin name="(HS1_DATA5)GPIO17" x="50.8" y="17.78" length="short" rot="R180"/>
+<pin name="(GPIO9/SPIHD/HS1_DATA2/U1RX)SD_DATA2" x="50.8" y="-20.32" length="short" rot="R180"/>
+<pin name="(GPIO10/SPIWP/HS1_DATA3/U1TX)SD_DATA3" x="50.8" y="-22.86" length="short" rot="R180"/>
+<pin name="(GPIO11/SPICSO/HS1_CMD/U1RTS)SD_CMD" x="50.8" y="-25.4" length="short" rot="R180"/>
+<pin name="(GPIO6/SPICLK/HS1_CLK/U1CTS)SD_CLK" x="50.8" y="-12.7" length="short" rot="R180"/>
+<pin name="(GPIO7/SPI1/HS1_DATA0)SD_DATA0" x="50.8" y="-15.24" length="short" rot="R180"/>
+<pin name="(GPIO8/SPID/HS1_DATA1)SD_DATA1" x="50.8" y="-17.78" length="short" rot="R180"/>
+<pin name="(VSPICS0/HS1_DATA6)GPIO5" x="50.8" y="22.86" length="short" rot="R180"/>
+<pin name="(VSPICLK/HS1_DATA7)GPIO18" x="50.8" y="15.24" length="short" rot="R180"/>
+<pin name="(GPIO1/CLK_OUT3/HS2_DATA1)U0TXD" x="50.8" y="38.1" length="short" rot="R180"/>
+<pin name="(GPIO3/CLK_OUT2/HS2_DATA0)U0RXD" x="50.8" y="35.56" length="short" rot="R180"/>
+<pin name="GPIO23" x="50.8" y="2.54" length="short" rot="R180"/>
+<pin name="(VSPIWP/HS2_CLK)GPIO22" x="50.8" y="5.08" length="short" rot="R180"/>
+<pin name="(VSPIQ/HS2_DATA2)GPIO19" x="50.8" y="12.7" length="short" rot="R180"/>
+<pin name="VDD3P3_CPU" x="-50.8" y="38.1" length="short"/>
+<pin name="XTAL_N" x="-50.8" y="7.62" length="short"/>
+<pin name="XTAL_P" x="-50.8" y="10.16" length="short"/>
+<pin name="VDDA" x="-50.8" y="33.02" length="short"/>
+<pin name="RES_14K" x="-50.8" y="-33.02" length="short"/>
+<pin name="CAP_10N" x="-50.8" y="-30.48" length="short"/>
+<pin name="GND" x="-50.8" y="-38.1" length="short"/>
+<pin name="(VSPIHD/HS2_CMD)GPIO21" x="50.8" y="7.62" length="short" rot="R180"/>
+<wire x1="48.26" y1="40.64" x2="-48.26" y2="40.64" width="0.254" layer="94"/>
+<wire x1="-48.26" y1="40.64" x2="-48.26" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-48.26" y1="-40.64" x2="48.26" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-40.64" x2="48.26" y2="40.64" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -21584,9 +21604,9 @@ Chip antenna with ground or secondary connection. Common with larger metal RF co
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32">
+<deviceset name="ESP32-2">
 <gates>
-<gate name="G$1" symbol="ESP32" x="0" y="0"/>
+<gate name="G$1" symbol="ESP32-2" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="QFN48-0.4MM">
@@ -21597,26 +21617,25 @@ Chip antenna with ground or secondary connection. Common with larger metal RF co
 <connect gate="G$1" pin="(ADC2:7/TOUCH7/RTC17)GPIO27" pad="16"/>
 <connect gate="G$1" pin="(DAC1/ADC2:8/RTC6)GPIO25" pad="14"/>
 <connect gate="G$1" pin="(DAC2/ADC2:9/RTC7)GPIO26" pad="15"/>
-<connect gate="G$1" pin="(GPIO1/CLK_OUT3/HS2_DATA1)U0TXD" pad="42"/>
+<connect gate="G$1" pin="(GPIO1/CLK_OUT3/HS2_DATA1)U0TXD" pad="41"/>
 <connect gate="G$1" pin="(GPIO10/SPIWP/HS1_DATA3/U1TX)SD_DATA3" pad="29"/>
 <connect gate="G$1" pin="(GPIO11/SPICSO/HS1_CMD/U1RTS)SD_CMD" pad="30"/>
 <connect gate="G$1" pin="(GPIO12/ADC2:5/TOUCH5/RTC15/SPIQ)MTDI" pad="18"/>
 <connect gate="G$1" pin="(GPIO13/ADC2:4/TOUCH4/RTC14/SPID/U0CTS)MTCK" pad="20"/>
 <connect gate="G$1" pin="(GPIO14/ADC2:6/TOUCH6/RTC16/SPICLK)MTMS" pad="17"/>
 <connect gate="G$1" pin="(GPIO15/ADC2:3/TOUCH3/RTC13/SPICSO/U0RTS)MTDO" pad="21"/>
-<connect gate="G$1" pin="(GPIO3/CLK_OUT2/HS2_DATA0)U0RXD" pad="41"/>
+<connect gate="G$1" pin="(GPIO3/CLK_OUT2/HS2_DATA0)U0RXD" pad="40"/>
 <connect gate="G$1" pin="(GPIO6/SPICLK/HS1_CLK/U1CTS)SD_CLK" pad="31"/>
 <connect gate="G$1" pin="(GPIO7/SPI1/HS1_DATA0)SD_DATA0" pad="32"/>
 <connect gate="G$1" pin="(GPIO8/SPID/HS1_DATA1)SD_DATA1" pad="33"/>
 <connect gate="G$1" pin="(GPIO9/SPIHD/HS1_DATA2/U1RX)SD_DATA2" pad="28"/>
-<connect gate="G$1" pin="(HS1_DATA4)GPIO16" pad="26"/>
+<connect gate="G$1" pin="(HS1_DATA4)GPIO16" pad="25"/>
 <connect gate="G$1" pin="(HS1_DATA5)GPIO17" pad="27"/>
 <connect gate="G$1" pin="(VSPICLK/HS1_DATA7)GPIO18" pad="35"/>
 <connect gate="G$1" pin="(VSPICS0/HS1_DATA6)GPIO5" pad="34"/>
-<connect gate="G$1" pin="(VSPID/HS2_DATA3)GPIO20" pad="39"/>
-<connect gate="G$1" pin="(VSPIHD/HS2_CMD)GPIO21" pad="43"/>
+<connect gate="G$1" pin="(VSPIHD/HS2_CMD)GPIO21" pad="42"/>
 <connect gate="G$1" pin="(VSPIQ/HS2_DATA2)GPIO19" pad="38"/>
-<connect gate="G$1" pin="(VSPIWP/HS2_CLK)GPIO22" pad="40"/>
+<connect gate="G$1" pin="(VSPIWP/HS2_CLK)GPIO22" pad="39"/>
 <connect gate="G$1" pin="32K_XN(GPIO33/ADC1:5/TOUCH8/RTC8)" pad="13"/>
 <connect gate="G$1" pin="32K_XP(GPIO32/ADC1:4/TOUCH9/RTC9)" pad="12"/>
 <connect gate="G$1" pin="CAP_10N" pad="48"/>
@@ -21631,8 +21650,8 @@ Chip antenna with ground or secondary connection. Common with larger metal RF co
 <connect gate="G$1" pin="SENSOR_VP(GPI36/ADC1:0/RTC0)" pad="5"/>
 <connect gate="G$1" pin="VDD3P3_CPU" pad="37"/>
 <connect gate="G$1" pin="VDD3P3_RTC" pad="19"/>
-<connect gate="G$1" pin="VDD3P3_SDIO" pad="25"/>
-<connect gate="G$1" pin="VDDA" pad="1 46"/>
+<connect gate="G$1" pin="VDD3P3_SDIO" pad="26"/>
+<connect gate="G$1" pin="VDDA" pad="1 43 46"/>
 <connect gate="G$1" pin="VDDA3P3" pad="3 4"/>
 <connect gate="G$1" pin="VDET_1(GPI34/ADC1:6)" pad="10"/>
 <connect gate="G$1" pin="VDET_2(GPI35/ADC1:7)" pad="11"/>
@@ -21640,9 +21659,7 @@ Chip antenna with ground or secondary connection. Common with larger metal RF co
 <connect gate="G$1" pin="XTAL_P" pad="45"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-13338"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -22033,9 +22050,11 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH" value="SFE_LOGO_NAME.1_INCH"/>
-<part name="U$1" library="esp32-thing-temp" deviceset="ESP32" device=""/>
 <part name="R9" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="U$2" library="esp32-thing-temp" deviceset="ESP32-2" device=""/>
+<part name="C27" library="SparkFun-Capacitors" deviceset="3.3NF" device="-0603-100V-10%" value="3.3nF"/>
+<part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22143,17 +22162,17 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <attribute name="NAME" x="48.26" y="124.206" size="1.778" layer="95" font="vector" align="top-right"/>
 <attribute name="VALUE" x="50.8" y="124.206" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
-<instance part="C1" gate="G$1" x="58.42" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="55.88" y="99.314" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="58.42" y="99.314" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="40.64" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="38.1" y="99.314" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="40.64" y="99.314" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="58.42" y="91.44" smashed="yes" rot="MR270">
-<attribute name="NAME" x="55.88" y="91.186" size="1.778" layer="95" align="top-right"/>
-<attribute name="VALUE" x="58.42" y="91.186" size="1.778" layer="96" rot="MR180"/>
+<instance part="C2" gate="G$1" x="40.64" y="91.44" smashed="yes" rot="MR270">
+<attribute name="NAME" x="38.1" y="91.186" size="1.778" layer="95" align="top-right"/>
+<attribute name="VALUE" x="40.64" y="91.186" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C5" gate="G$1" x="60.96" y="78.74" rot="R180"/>
-<instance part="R2" gate="G$1" x="66.04" y="76.2" rot="R90"/>
-<instance part="GND3" gate="1" x="71.12" y="63.5"/>
+<instance part="C5" gate="G$1" x="48.26" y="78.74" rot="R180"/>
+<instance part="R2" gate="G$1" x="60.96" y="83.82" rot="R180"/>
+<instance part="GND3" gate="1" x="48.26" y="63.5"/>
 <instance part="GND35" gate="1" x="236.22" y="129.54" rot="MR0"/>
 <instance part="GND36" gate="1" x="287.02" y="129.54" rot="MR0"/>
 <instance part="U5" gate="G$1" x="254" y="139.7">
@@ -22305,9 +22324,11 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <attribute name="VALUE" x="418.084" y="56.896" size="1.778" layer="96"/>
 </instance>
 <instance part="LOGO3" gate="G$1" x="271.78" y="2.54"/>
-<instance part="U$1" gate="G$1" x="124.46" y="119.38"/>
 <instance part="R9" gate="G$1" x="299.72" y="83.82" rot="R90"/>
 <instance part="SUPPLY17" gate="G$1" x="299.72" y="91.44"/>
+<instance part="U$2" gate="G$1" x="124.46" y="116.84"/>
+<instance part="C27" gate="G$1" x="63.5" y="78.74" rot="MR270"/>
+<instance part="GND40" gate="1" x="71.12" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -22326,10 +22347,10 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <junction x="68.58" y="149.86"/>
 <wire x1="73.66" y1="154.94" x2="68.58" y2="154.94" width="0.1524" layer="91"/>
 <junction x="68.58" y="154.94"/>
-<pinref part="U$1" gate="G$1" pin="VDDA3P3"/>
-<pinref part="U$1" gate="G$1" pin="VDD3P3_RTC"/>
-<pinref part="U$1" gate="G$1" pin="VDD3P3_CPU"/>
-<pinref part="U$1" gate="G$1" pin="VDDA"/>
+<pinref part="U$2" gate="G$1" pin="VDDA3P3"/>
+<pinref part="U$2" gate="G$1" pin="VDD3P3_RTC"/>
+<pinref part="U$2" gate="G$1" pin="VDD3P3_CPU"/>
+<pinref part="U$2" gate="G$1" pin="VDDA"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -22408,7 +22429,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="73.66" y1="142.24" x2="71.12" y2="142.24" width="0.1524" layer="91"/>
 <label x="71.12" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="CHIP_PU"/>
+<pinref part="U$2" gate="G$1" pin="CHIP_PU"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
@@ -22451,21 +22472,6 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <junction x="43.18" y="127"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="71.12" y1="66.04" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="68.58" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="78.74" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="68.58" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="68.58" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
-<junction x="71.12" y="68.58"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="68.58" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
-<junction x="66.04" y="68.58"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="134.62" x2="236.22" y2="134.62" width="0.1524" layer="91"/>
@@ -22673,6 +22679,22 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="22.86" x2="226.06" y2="20.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="66.04" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="71.12" y1="78.74" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="GND40" gate="1" pin="GND"/>
+<wire x1="71.12" y1="78.74" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="406.4" y1="93.98" x2="408.94" y2="93.98" width="0.1524" layer="91"/>
+<label x="408.94" y="93.98" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="20"/>
+</segment>
 </net>
 <net name="LNA_IN" class="0">
 <segment>
@@ -22682,14 +22704,14 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="134.62" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
 <junction x="38.1" y="134.62"/>
-<pinref part="U$1" gate="G$1" pin="LNA_IN"/>
+<pinref part="U$2" gate="G$1" pin="LNA_IN"/>
 </segment>
 </net>
 <net name="32K_XP" class="0">
 <segment>
 <wire x1="73.66" y1="119.38" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
 <label x="71.12" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="32K_XP(GPIO32/ADC1:4/TOUCH9/RTC9)"/>
+<pinref part="U$2" gate="G$1" pin="32K_XP(GPIO32/ADC1:4/TOUCH9/RTC9)"/>
 </segment>
 <segment>
 <pinref part="Y2" gate="G$1" pin="1"/>
@@ -22710,7 +22732,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="73.66" y1="116.84" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
 <label x="71.12" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="32K_XN(GPIO33/ADC1:5/TOUCH8/RTC8)"/>
+<pinref part="U$2" gate="G$1" pin="32K_XN(GPIO33/ADC1:5/TOUCH8/RTC8)"/>
 </segment>
 <segment>
 <pinref part="Y2" gate="G$1" pin="2"/>
@@ -22731,7 +22753,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="73.66" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
 <label x="68.58" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="VDET_1(GPI34/ADC1:6)"/>
+<pinref part="U$2" gate="G$1" pin="VDET_1(GPI34/ADC1:6)"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="78.74" x2="365.76" y2="78.74" width="0.1524" layer="91"/>
@@ -22743,7 +22765,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="73.66" y1="106.68" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
 <label x="68.58" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="VDET_2(GPI35/ADC1:7)"/>
+<pinref part="U$2" gate="G$1" pin="VDET_2(GPI35/ADC1:7)"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="76.2" x2="365.76" y2="76.2" width="0.1524" layer="91"/>
@@ -22753,10 +22775,10 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 </net>
 <net name="39" class="0">
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
 <label x="68.58" y="91.44" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="SENSOR_VN(GPI39/ADC1:3/RTC3)"/>
+<pinref part="U$2" gate="G$1" pin="SENSOR_VN(GPI39/ADC1:3/RTC3)"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="86.36" x2="365.76" y2="86.36" width="0.1524" layer="91"/>
@@ -22766,12 +22788,12 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 </net>
 <net name="38" class="0">
 <segment>
-<wire x1="73.66" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="93.98" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
 <label x="68.58" y="93.98" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="SENSOR_CAPN(GPI38/ADC1:2/RTC2)"/>
+<pinref part="U$2" gate="G$1" pin="SENSOR_CAPN(GPI38/ADC1:2/RTC2)"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="93.98" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="91.44" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="88.9" x2="365.76" y2="88.9" width="0.1524" layer="91"/>
@@ -22781,53 +22803,54 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 </net>
 <net name="36" class="0">
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
-<label x="68.58" y="99.06" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="SENSOR_VP(GPI36/ADC1:0/RTC0)"/>
-</segment>
-<segment>
 <wire x1="363.22" y1="93.98" x2="365.76" y2="93.98" width="0.1524" layer="91"/>
 <label x="365.76" y="93.98" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="20"/>
 </segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="SENSOR_VP(GPI36/ADC1:0/RTC0)"/>
+<label x="68.58" y="99.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="37" class="0">
-<segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="99.06" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="99.06" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
-<label x="68.58" y="96.52" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="SENSOR_CAPP(GPI37/ADC1:1/RTC1)"/>
-</segment>
 <segment>
 <wire x1="363.22" y1="91.44" x2="365.76" y2="91.44" width="0.1524" layer="91"/>
 <label x="365.76" y="91.44" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="19"/>
 </segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="99.06" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="SENSOR_CAPP(GPI37/ADC1:1/RTC1)"/>
+<label x="68.58" y="96.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CAP_10N" class="0">
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="86.36" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="86.36" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="CAP_10N"/>
-</segment>
-</net>
-<net name="RES_14K" class="0">
-<segment>
+<wire x1="73.66" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="86.36" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="CAP_10N"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="78.74" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
+<junction x="53.34" y="86.36"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="83.82" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="RES_14K"/>
+<wire x1="53.34" y1="83.82" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="83.82" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
+<junction x="53.34" y="83.82"/>
 </segment>
 </net>
 <net name="15" class="0">
 <segment>
 <wire x1="175.26" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
 <label x="177.8" y="78.74" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(GPIO15/ADC2:3/TOUCH3/RTC13/SPICSO/U0RTS)MTDO"/>
+<pinref part="U$2" gate="G$1" pin="(GPIO15/ADC2:3/TOUCH3/RTC13/SPICSO/U0RTS)MTDO"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="71.12" x2="408.94" y2="71.12" width="0.1524" layer="91"/>
@@ -22839,7 +22862,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
 <label x="177.8" y="81.28" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(GPIO14/ADC2:6/TOUCH6/RTC16/SPICLK)MTMS"/>
+<pinref part="U$2" gate="G$1" pin="(GPIO14/ADC2:6/TOUCH6/RTC16/SPICLK)MTMS"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="66.04" x2="365.76" y2="66.04" width="0.1524" layer="91"/>
@@ -22851,7 +22874,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 <label x="177.8" y="83.82" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(GPIO13/ADC2:4/TOUCH4/RTC14/SPID/U0CTS)MTCK"/>
+<pinref part="U$2" gate="G$1" pin="(GPIO13/ADC2:4/TOUCH4/RTC14/SPID/U0CTS)MTCK"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="60.96" x2="365.76" y2="60.96" width="0.1524" layer="91"/>
@@ -22863,7 +22886,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="86.36" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
 <label x="177.8" y="86.36" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(GPIO12/ADC2:5/TOUCH5/RTC15/SPIQ)MTDI"/>
+<pinref part="U$2" gate="G$1" pin="(GPIO12/ADC2:5/TOUCH5/RTC15/SPIQ)MTDI"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="63.5" x2="365.76" y2="63.5" width="0.1524" layer="91"/>
@@ -22880,7 +22903,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
 <label x="177.8" y="93.98" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(GPIO10/SPIWP/HS1_DATA3/U1TX)SD_DATA3"/>
+<pinref part="U$2" gate="G$1" pin="(GPIO10/SPIWP/HS1_DATA3/U1TX)SD_DATA3"/>
 </segment>
 </net>
 <net name="FLASH_SHD" class="0">
@@ -22892,7 +22915,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 <label x="177.8" y="96.52" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(GPIO9/SPIHD/HS1_DATA2/U1RX)SD_DATA2"/>
+<pinref part="U$2" gate="G$1" pin="(GPIO9/SPIHD/HS1_DATA2/U1RX)SD_DATA2"/>
 </segment>
 </net>
 <net name="FLASH_SDI" class="0">
@@ -22904,7 +22927,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
 <label x="177.8" y="99.06" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(GPIO8/SPID/HS1_DATA1)SD_DATA1"/>
+<pinref part="U$2" gate="G$1" pin="(GPIO8/SPID/HS1_DATA1)SD_DATA1"/>
 </segment>
 </net>
 <net name="FLASH_SDO" class="0">
@@ -22916,7 +22939,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="101.6" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
 <label x="177.8" y="101.6" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(GPIO7/SPI1/HS1_DATA0)SD_DATA0"/>
+<pinref part="U$2" gate="G$1" pin="(GPIO7/SPI1/HS1_DATA0)SD_DATA0"/>
 </segment>
 </net>
 <net name="FLASH_SCK" class="0">
@@ -22928,7 +22951,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="104.14" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
 <label x="177.8" y="104.14" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(GPIO6/SPICLK/HS1_CLK/U1CTS)SD_CLK"/>
+<pinref part="U$2" gate="G$1" pin="(GPIO6/SPICLK/HS1_CLK/U1CTS)SD_CLK"/>
 </segment>
 </net>
 <net name="FLASH_SCS" class="0">
@@ -22940,7 +22963,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
 <label x="177.8" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(GPIO11/SPICSO/HS1_CMD/U1RTS)SD_CMD"/>
+<pinref part="U$2" gate="G$1" pin="(GPIO11/SPICSO/HS1_CMD/U1RTS)SD_CMD"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -22965,7 +22988,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="106.68" x2="177.8" y2="106.68" width="0.1524" layer="91"/>
 <label x="177.8" y="106.68" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="VDD3P3_SDIO"/>
+<pinref part="U$2" gate="G$1" pin="VDD3P3_SDIO"/>
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="1"/>
@@ -22980,7 +23003,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="111.76" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
 <label x="177.8" y="111.76" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(ADC2:7/TOUCH7/RTC17)GPIO27"/>
+<pinref part="U$2" gate="G$1" pin="(ADC2:7/TOUCH7/RTC17)GPIO27"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="68.58" x2="365.76" y2="68.58" width="0.1524" layer="91"/>
@@ -22992,7 +23015,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
 <label x="177.8" y="114.3" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(DAC2/ADC2:9/RTC7)GPIO26"/>
+<pinref part="U$2" gate="G$1" pin="(DAC2/ADC2:9/RTC7)GPIO26"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="71.12" x2="365.76" y2="71.12" width="0.1524" layer="91"/>
@@ -23007,40 +23030,16 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="J2" gate="G$1" pin="14"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GPIO23"/>
 <wire x1="175.26" y1="119.38" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
 <label x="177.8" y="119.38" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="GPIO23"/>
 </segment>
 </net>
 <net name="22" class="0">
 <segment>
 <wire x1="175.26" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
 <label x="177.8" y="121.92" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(VSPIWP/HS2_CLK)GPIO22"/>
-</segment>
-<segment>
-<wire x1="406.4" y1="86.36" x2="408.94" y2="86.36" width="0.1524" layer="91"/>
-<label x="408.94" y="86.36" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="17"/>
-</segment>
-</net>
-<net name="21" class="0">
-<segment>
-<wire x1="175.26" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
-<label x="177.8" y="124.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(VSPIHD/HS2_CMD)GPIO21"/>
-</segment>
-<segment>
-<wire x1="406.4" y1="88.9" x2="408.94" y2="88.9" width="0.1524" layer="91"/>
-<label x="408.94" y="88.9" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="18"/>
-</segment>
-</net>
-<net name="20" class="0">
-<segment>
-<wire x1="175.26" y1="127" x2="177.8" y2="127" width="0.1524" layer="91"/>
-<label x="177.8" y="127" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(VSPID/HS2_DATA3)GPIO20"/>
+<pinref part="U$2" gate="G$1" pin="(VSPIWP/HS2_CLK)GPIO22"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="83.82" x2="408.94" y2="83.82" width="0.1524" layer="91"/>
@@ -23048,11 +23047,23 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="J2" gate="G$1" pin="16"/>
 </segment>
 </net>
+<net name="21" class="0">
+<segment>
+<wire x1="175.26" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
+<label x="177.8" y="124.46" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="(VSPIHD/HS2_CMD)GPIO21"/>
+</segment>
+<segment>
+<wire x1="406.4" y1="91.44" x2="408.94" y2="91.44" width="0.1524" layer="91"/>
+<label x="408.94" y="91.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="19"/>
+</segment>
+</net>
 <net name="19" class="0">
 <segment>
 <wire x1="175.26" y1="129.54" x2="177.8" y2="129.54" width="0.1524" layer="91"/>
 <label x="177.8" y="129.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(VSPIQ/HS2_DATA2)GPIO19"/>
+<pinref part="U$2" gate="G$1" pin="(VSPIQ/HS2_DATA2)GPIO19"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="81.28" x2="408.94" y2="81.28" width="0.1524" layer="91"/>
@@ -23064,7 +23075,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="132.08" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
 <label x="177.8" y="132.08" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(VSPICLK/HS1_DATA7)GPIO18"/>
+<pinref part="U$2" gate="G$1" pin="(VSPICLK/HS1_DATA7)GPIO18"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="76.2" x2="408.94" y2="76.2" width="0.1524" layer="91"/>
@@ -23076,7 +23087,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="137.16" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
 <label x="177.8" y="137.16" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(HS1_DATA4)GPIO16"/>
+<pinref part="U$2" gate="G$1" pin="(HS1_DATA4)GPIO16"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="58.42" x2="408.94" y2="58.42" width="0.1524" layer="91"/>
@@ -23088,7 +23099,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="139.7" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
 <label x="177.8" y="139.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(VSPICS0/HS1_DATA6)GPIO5"/>
+<pinref part="U$2" gate="G$1" pin="(VSPICS0/HS1_DATA6)GPIO5"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="73.66" x2="408.94" y2="73.66" width="0.1524" layer="91"/>
@@ -23106,7 +23117,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
 <label x="177.8" y="142.24" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(ADC2:0/TOUCH0/RTC10/SPIHD)GPIO4"/>
+<pinref part="U$2" gate="G$1" pin="(ADC2:0/TOUCH0/RTC10/SPIHD)GPIO4"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="63.5" x2="408.94" y2="63.5" width="0.1524" layer="91"/>
@@ -23118,7 +23129,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="144.78" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
 <label x="177.8" y="144.78" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(ADC2:2/TOUCH2/RTC12/SPIWP)GPIO2"/>
+<pinref part="U$2" gate="G$1" pin="(ADC2:2/TOUCH2/RTC12/SPIWP)GPIO2"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="68.58" x2="408.94" y2="68.58" width="0.1524" layer="91"/>
@@ -23130,7 +23141,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="152.4" x2="177.8" y2="152.4" width="0.1524" layer="91"/>
 <label x="177.8" y="152.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(GPIO3/CLK_OUT2/HS2_DATA0)U0RXD"/>
+<pinref part="U$2" gate="G$1" pin="(GPIO3/CLK_OUT2/HS2_DATA0)U0RXD"/>
 </segment>
 <segment>
 <label x="393.7" y="254" size="1.27" layer="95" xref="yes"/>
@@ -23138,16 +23149,16 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <wire x1="391.16" y1="254" x2="393.7" y2="254" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="93.98" x2="408.94" y2="93.98" width="0.1524" layer="91"/>
-<label x="408.94" y="93.98" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="20"/>
+<wire x1="406.4" y1="86.36" x2="408.94" y2="86.36" width="0.1524" layer="91"/>
+<label x="408.94" y="86.36" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="17"/>
 </segment>
 </net>
 <net name="U0TXD" class="0">
 <segment>
 <wire x1="175.26" y1="154.94" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
 <label x="177.8" y="154.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(GPIO1/CLK_OUT3/HS2_DATA1)U0TXD"/>
+<pinref part="U$2" gate="G$1" pin="(GPIO1/CLK_OUT3/HS2_DATA1)U0TXD"/>
 </segment>
 <segment>
 <label x="393.7" y="251.46" size="1.27" layer="95" xref="yes"/>
@@ -23155,16 +23166,16 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <wire x1="391.16" y1="251.46" x2="393.7" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="91.44" x2="408.94" y2="91.44" width="0.1524" layer="91"/>
-<label x="408.94" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="19"/>
+<wire x1="406.4" y1="88.9" x2="408.94" y2="88.9" width="0.1524" layer="91"/>
+<label x="408.94" y="88.9" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="18"/>
 </segment>
 </net>
 <net name="25" class="0">
 <segment>
 <wire x1="175.26" y1="116.84" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
 <label x="177.8" y="116.84" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(DAC1/ADC2:8/RTC6)GPIO25"/>
+<pinref part="U$2" gate="G$1" pin="(DAC1/ADC2:8/RTC6)GPIO25"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="73.66" x2="365.76" y2="73.66" width="0.1524" layer="91"/>
@@ -23472,7 +23483,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
 <junction x="55.88" y="129.54"/>
-<pinref part="U$1" gate="G$1" pin="XTAL_P"/>
+<pinref part="U$2" gate="G$1" pin="XTAL_P"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -23482,14 +23493,14 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="124.46" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
 <junction x="55.88" y="124.46"/>
-<pinref part="U$1" gate="G$1" pin="XTAL_N"/>
+<pinref part="U$2" gate="G$1" pin="XTAL_N"/>
 </segment>
 </net>
 <net name="0" class="0">
 <segment>
 <wire x1="175.26" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
 <label x="177.8" y="147.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(ADC2:1/TOUCH1/RTC11/CLK_OUT1)GPIO0"/>
+<pinref part="U$2" gate="G$1" pin="(ADC2:1/TOUCH1/RTC11/CLK_OUT1)GPIO0"/>
 </segment>
 <segment>
 <wire x1="375.92" y1="119.38" x2="373.38" y2="119.38" width="0.1524" layer="91"/>
@@ -23516,7 +23527,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <wire x1="175.26" y1="134.62" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
 <label x="177.8" y="134.62" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="(HS1_DATA5)GPIO17"/>
+<pinref part="U$2" gate="G$1" pin="(HS1_DATA5)GPIO17"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="60.96" x2="408.94" y2="60.96" width="0.1524" layer="91"/>
@@ -23543,6 +23554,18 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="226.06" y1="35.56" x2="226.06" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="78.74" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="RES_14K"/>
+<wire x1="68.58" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
+<junction x="68.58" y="83.82"/>
 </segment>
 </net>
 </nets>
