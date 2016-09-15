@@ -15528,8 +15528,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.254" layer="21"/>
 <pad name="P$1" x="-3.81" y="0" drill="1.016" diameter="2.032" stop="no"/>
 <pad name="P$2" x="3.81" y="0" drill="1.016" diameter="2.032" stop="no"/>
-<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <polygon width="0.127" layer="30">
 <vertex x="3.8201" y="-0.9449" curve="-90"/>
 <vertex x="2.8652" y="-0.0152" curve="-90.011749"/>
@@ -15596,7 +15596,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 <deviceset name="10KOHM" prefix="R">
 <description>&lt;h3&gt;10kΩ resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits.&lt;/p&gt;</description>
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -15845,6 +15845,39 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="RES-00818"/>
 <attribute name="VALUE" value="330" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="20KOHM" prefix="R">
+<description>&lt;h3&gt;20kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09383"/>
+<attribute name="VALUE" value="20k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-1/10W-5%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09231"/>
+<attribute name="VALUE" value="20k"/>
 </technology>
 </technologies>
 </device>
@@ -16425,27 +16458,6 @@ CAP-09321</description>
 <technology name="">
 <attribute name="PROD_ID" value="CAP-07881"/>
 <attribute name="VALUE" value="15pF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="3.3NF" prefix="C">
-<description>&lt;h3&gt;3.3nF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-100V-10%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-09633" constant="no"/>
-<attribute name="VALUE" value="3.3nF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -21349,20 +21361,21 @@ FQP27P06 -
 </polygon>
 </package>
 <package name="0603">
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
 <wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
 <wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
 <wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
 <wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-6.5499" y1="-0.3" x2="-6.1501" y2="0.3" layer="35"/>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 </packages>
 <symbols>
@@ -21407,21 +21420,6 @@ FQP27P06 -
 <text x="1.524" y="2.921" size="1.778" layer="95">&gt;NAME</text>
 <text x="1.524" y="-2.159" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="RESISTOR">
-<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 <symbol name="ESP32-2">
 <pin name="SENSOR_CAPP(GPI37/ADC1:1/RTC1)" x="-50.8" y="-20.32" length="short"/>
 <pin name="SENSOR_VP(GPI36/ADC1:0/RTC0)" x="-50.8" y="-17.78" length="short"/>
@@ -21465,14 +21463,24 @@ FQP27P06 -
 <pin name="XTAL_N" x="-50.8" y="7.62" length="short"/>
 <pin name="XTAL_P" x="-50.8" y="10.16" length="short"/>
 <pin name="VDDA" x="-50.8" y="33.02" length="short"/>
-<pin name="RES_14K" x="-50.8" y="-33.02" length="short"/>
-<pin name="CAP_10N" x="-50.8" y="-30.48" length="short"/>
+<pin name="CAP2" x="-50.8" y="-33.02" length="short"/>
+<pin name="CAP1" x="-50.8" y="-30.48" length="short"/>
 <pin name="GND" x="-50.8" y="-38.1" length="short"/>
 <pin name="(VSPIHD/HS2_CMD)GPIO21" x="50.8" y="7.62" length="short" rot="R180"/>
 <wire x1="48.26" y1="40.64" x2="-48.26" y2="40.64" width="0.254" layer="94"/>
 <wire x1="-48.26" y1="40.64" x2="-48.26" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="-48.26" y1="-40.64" x2="48.26" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="48.26" y1="-40.64" x2="48.26" y2="40.64" width="0.254" layer="94"/>
+</symbol>
+<symbol name="CAP-1">
+<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
+<text x="1.524" y="2.921" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.524" y="-2.159" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
+<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -21567,26 +21575,6 @@ Chip antenna with ground or secondary connection. Common with larger metal RF co
 </device>
 </devices>
 </deviceset>
-<deviceset name="14KOHM-1/10W-1%(0603)" prefix="R" uservalue="yes">
-<description>RES-13340</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-13340"/>
-<attribute name="VALUE" value="14k"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="5.6PF-50V-5%(0603)" prefix="C">
 <description>CAP-12456</description>
 <gates>
@@ -21638,12 +21626,12 @@ Chip antenna with ground or secondary connection. Common with larger metal RF co
 <connect gate="G$1" pin="(VSPIWP/HS2_CLK)GPIO22" pad="39"/>
 <connect gate="G$1" pin="32K_XN(GPIO33/ADC1:5/TOUCH8/RTC8)" pad="13"/>
 <connect gate="G$1" pin="32K_XP(GPIO32/ADC1:4/TOUCH9/RTC9)" pad="12"/>
-<connect gate="G$1" pin="CAP_10N" pad="48"/>
+<connect gate="G$1" pin="CAP1" pad="48"/>
+<connect gate="G$1" pin="CAP2" pad="47"/>
 <connect gate="G$1" pin="CHIP_PU" pad="9"/>
 <connect gate="G$1" pin="GND" pad="EP"/>
 <connect gate="G$1" pin="GPIO23" pad="36"/>
 <connect gate="G$1" pin="LNA_IN" pad="2"/>
-<connect gate="G$1" pin="RES_14K" pad="47"/>
 <connect gate="G$1" pin="SENSOR_CAPN(GPI38/ADC1:2/RTC2)" pad="7"/>
 <connect gate="G$1" pin="SENSOR_CAPP(GPI37/ADC1:1/RTC1)" pad="6"/>
 <connect gate="G$1" pin="SENSOR_VN(GPI39/ADC1:3/RTC3)" pad="8"/>
@@ -21660,6 +21648,27 @@ Chip antenna with ground or secondary connection. Common with larger metal RF co
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3.0NF" prefix="C">
+<description>&lt;h3&gt;3.0nF (3nF, 3000pF) ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-50V-5%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-13515"/>
+<attribute name="VALUE" value="3.0nF"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -21929,7 +21938,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="C1" library="esp32-thing-temp" deviceset="270PF-50V-5%(0603)" device="" value="270pF"/>
 <part name="C2" library="esp32-thing-temp" deviceset="270PF-50V-5%(0603)" device="" value="270pF"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="10nF"/>
-<part name="R2" library="esp32-thing-temp" deviceset="14KOHM-1/10W-1%(0603)" device="" value="14k"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="20KOHM" device="-0603-1/10W-1%" value="20k"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -22041,19 +22050,19 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="R8" library="SparkFun-Resistors" deviceset="330OHM1/10W1%(0603)" device="" value="330"/>
 <part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI" value="OSHW-LOGOMINI"/>
-<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL" value="FIDUCIALUFIDUCIAL"/>
+<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL" value="FIDUCIALUFIDUCIAL"/>
 <part name="GND38" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND39" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
-<part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH" value="SFE_LOGO_NAME.1_INCH"/>
+<part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".2_INCH" value="SFE_LOGO_NAME.2_INCH"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="U$2" library="esp32-thing-temp" deviceset="ESP32-2" device=""/>
-<part name="C27" library="SparkFun-Capacitors" deviceset="3.3NF" device="-0603-100V-10%" value="3.3nF"/>
+<part name="C27" library="esp32-thing-temp" deviceset="3.0NF" device="-0603-50V-5%" value="3.0nF"/>
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -22130,7 +22139,7 @@ resistor.</text>
 <text x="261.62" y="63.5" size="2.54" layer="94" align="top-left">Reset Button</text>
 <text x="200.66" y="53.34" size="2.54" layer="94" align="top-left">GPIO5 LED</text>
 <text x="332.74" y="104.14" size="2.54" layer="94" align="top-left">Headers</text>
-<text x="421.64" y="10.16" size="2.54" layer="94" align="top-left">v02</text>
+<text x="421.64" y="10.16" size="2.54" layer="94" align="top-left">v03</text>
 <text x="354.838" y="11.43" size="2.54" layer="94" rot="MR180" align="top-left">Jim Lindblom</text>
 <text x="68.58" y="167.64" size="2.032" layer="97" font="vector" align="bottom-right">ESP32 VCC Range: 2.8-3.6V</text>
 <text x="274.32" y="162.56" size="2.032" layer="97" font="vector">SJ3 allows selection between 
@@ -22162,16 +22171,16 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <attribute name="NAME" x="48.26" y="124.206" size="1.778" layer="95" font="vector" align="top-right"/>
 <attribute name="VALUE" x="50.8" y="124.206" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
-<instance part="C1" gate="G$1" x="40.64" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="38.1" y="99.314" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="40.64" y="99.314" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="58.42" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="55.88" y="99.314" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="58.42" y="99.314" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="40.64" y="91.44" smashed="yes" rot="MR270">
-<attribute name="NAME" x="38.1" y="91.186" size="1.778" layer="95" align="top-right"/>
-<attribute name="VALUE" x="40.64" y="91.186" size="1.778" layer="96" rot="MR180"/>
+<instance part="C2" gate="G$1" x="58.42" y="91.44" smashed="yes" rot="MR270">
+<attribute name="NAME" x="55.88" y="91.186" size="1.778" layer="95" align="top-right"/>
+<attribute name="VALUE" x="58.42" y="91.186" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C5" gate="G$1" x="48.26" y="78.74" rot="R180"/>
-<instance part="R2" gate="G$1" x="60.96" y="83.82" rot="R180"/>
+<instance part="R2" gate="G$1" x="60.96" y="81.28" rot="R180"/>
 <instance part="GND3" gate="1" x="48.26" y="63.5"/>
 <instance part="GND35" gate="1" x="236.22" y="129.54" rot="MR0"/>
 <instance part="GND36" gate="1" x="287.02" y="129.54" rot="MR0"/>
@@ -22327,7 +22336,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="R9" gate="G$1" x="299.72" y="83.82" rot="R90"/>
 <instance part="SUPPLY17" gate="G$1" x="299.72" y="91.44"/>
 <instance part="U$2" gate="G$1" x="124.46" y="116.84"/>
-<instance part="C27" gate="G$1" x="63.5" y="78.74" rot="MR270"/>
+<instance part="C27" gate="G$1" x="63.5" y="76.2" rot="MR270"/>
 <instance part="GND40" gate="1" x="71.12" y="63.5"/>
 </instances>
 <busses>
@@ -22778,7 +22787,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <label x="68.58" y="91.44" size="1.778" layer="95"/>
 <pinref part="U$2" gate="G$1" pin="SENSOR_VN(GPI39/ADC1:3/RTC3)"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="86.36" x2="365.76" y2="86.36" width="0.1524" layer="91"/>
@@ -22791,9 +22800,9 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <label x="68.58" y="93.98" size="1.778" layer="95"/>
 <pinref part="U$2" gate="G$1" pin="SENSOR_CAPN(GPI38/ADC1:2/RTC2)"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="93.98" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="91.44" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="93.98" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="88.9" x2="365.76" y2="88.9" width="0.1524" layer="91"/>
@@ -22809,7 +22818,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="SENSOR_VP(GPI36/ADC1:0/RTC0)"/>
 <label x="68.58" y="99.06" size="1.778" layer="95"/>
 </segment>
@@ -22822,9 +22831,9 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="99.06" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="99.06" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="99.06" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="SENSOR_CAPP(GPI37/ADC1:1/RTC1)"/>
 <label x="68.58" y="96.52" size="1.778" layer="95"/>
 </segment>
@@ -22835,15 +22844,15 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <wire x1="73.66" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="86.36" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="CAP_10N"/>
+<pinref part="U$2" gate="G$1" pin="CAP1"/>
 <pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="78.74" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="76.2" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="76.2" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
 <junction x="53.34" y="86.36"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="83.82" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="83.82" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
-<junction x="53.34" y="83.82"/>
+<wire x1="53.34" y1="81.28" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="81.28" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
+<junction x="53.34" y="81.28"/>
 </segment>
 </net>
 <net name="15" class="0">
@@ -23559,13 +23568,14 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <net name="N$4" class="0">
 <segment>
 <pinref part="C27" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="78.74" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="RES_14K"/>
+<wire x1="66.04" y1="76.2" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="76.2" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="CAP2"/>
+<wire x1="68.58" y1="81.28" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
-<junction x="68.58" y="83.82"/>
+<wire x1="66.04" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
+<junction x="68.58" y="81.28"/>
 </segment>
 </net>
 </nets>
