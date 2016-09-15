@@ -16119,6 +16119,27 @@ CAP-09321</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="100PF" prefix="C">
+<description>&lt;h3&gt;100pF/0.1nF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-50V-5%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-07883"/>
+<attribute name="VALUE" value="100pF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="0.1UF" prefix="C">
 <description>&lt;h3&gt;0.1µF ceramic capacitors&lt;/h3&gt;
 &lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
@@ -21927,7 +21948,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-4.6X2.8MM" value="RESET"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10k"/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Y1" library="things" deviceset="CRYSTAL-GROUNDED" device="3.2X2.5" value="26MHz">
@@ -22011,7 +22032,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="R17" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R18" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="C18" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="C18" library="SparkFun-Capacitors" deviceset="100PF" device="-0603-50V-5%" value="100pF"/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
@@ -22059,7 +22080,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".2_INCH" value="SFE_LOGO_NAME.2_INCH"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10k"/>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="U$2" library="esp32-thing-temp" deviceset="ESP32-2" device=""/>
 <part name="C27" library="esp32-thing-temp" deviceset="3.0NF" device="-0603-50V-5%" value="3.0nF"/>
@@ -22068,7 +22089,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <sheets>
 <sheet>
 <plain>
-<text x="355.6" y="160.02" size="1.905" layer="91" font="vector">Boot Mode Configuration
+<text x="355.6" y="160.02" size="1.905" layer="97" font="vector">Boot Mode Configuration
 Pin        Default     Boot   Download
 GPIO0        1         1       0
 U0TXD        1         1       x
@@ -22094,11 +22115,11 @@ resistor.</text>
 6V max in</text>
 <text x="332.74" y="190.5" size="2.54" layer="94" align="top-left">Auto-Reset</text>
 <text x="40.64" y="38.1" size="1.27" layer="97" align="bottom-center">Near VDDA
-46</text>
+46, 43</text>
 <text x="60.96" y="38.1" size="1.27" layer="97" align="bottom-center">Near VDDA_LNA
 1</text>
-<text x="81.28" y="38.1" size="1.27" layer="97" align="bottom-center">Near VDDA3P3
-3/4</text>
+<text x="91.44" y="38.1" size="1.27" layer="97" align="bottom-center">Near VDDA3P3
+3, 4</text>
 <wire x1="50.8" y1="40.64" x2="50.8" y2="12.7" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="71.12" y1="40.64" x2="71.12" y2="12.7" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="106.68" y1="40.64" x2="106.68" y2="12.7" width="0.2032" layer="97" style="shortdash"/>
@@ -22106,7 +22127,7 @@ resistor.</text>
 37</text>
 <wire x1="127" y1="40.64" x2="127" y2="12.7" width="0.2032" layer="97" style="shortdash"/>
 <text x="137.16" y="38.1" size="1.27" layer="97" align="bottom-center">Near VDDPST_SDIO
-25</text>
+26</text>
 <wire x1="147.32" y1="40.64" x2="147.32" y2="12.7" width="0.2032" layer="97" style="shortdash"/>
 <text x="157.48" y="38.1" size="1.27" layer="97" align="bottom-center">Near VDDPST_RTC
 19</text>
@@ -22141,7 +22162,7 @@ resistor.</text>
 <text x="332.74" y="104.14" size="2.54" layer="94" align="top-left">Headers</text>
 <text x="421.64" y="10.16" size="2.54" layer="94" align="top-left">v03</text>
 <text x="354.838" y="11.43" size="2.54" layer="94" rot="MR180" align="top-left">Jim Lindblom</text>
-<text x="68.58" y="167.64" size="2.032" layer="97" font="vector" align="bottom-right">ESP32 VCC Range: 2.8-3.6V</text>
+<text x="124.46" y="165.1" size="2.032" layer="97" font="vector" align="bottom-center">ESP32 VCC Range: 2.8-3.6V</text>
 <text x="274.32" y="162.56" size="2.032" layer="97" font="vector">SJ3 allows selection between 
 FLASH_VDD and 3.3V as the
 voltage supply to the flash IC.</text>
@@ -22150,6 +22171,9 @@ power LED (for
 power saving).</text>
 <text x="381" y="114.3" size="1.778" layer="97" font="vector" align="top-center">If DTR is LOW, toggling RTS from HIGH to LOW resets to run mode.
 If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
+<text x="58.42" y="152.4" size="1.27" layer="97" rot="MR0">CHIP_PU is the ESP32's enable/reset pin.
+It must be pulled high to turn the ESP32 on.</text>
+<wire x1="58.42" y1="152.4" x2="61.468" y2="143.51" width="0.2032" layer="97"/>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="G$1" x="68.58" y="160.02"/>

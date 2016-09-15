@@ -2616,7 +2616,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="S1" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="RESET" x="7.62" y="45.72" rot="R90">
 <attribute name="PROD_ID" value="SWCH-13065" x="7.62" y="45.72" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="R1" library="SparkFun-Resistors" package="0603" value="10K" x="7.62" y="41.91">
+<element name="R1" library="SparkFun-Resistors" package="0603" value="10k" x="7.62" y="41.91">
 <attribute name="PROD_ID" value="RES-00824" x="7.62" y="41.91" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="Y1" library="things" package="CRYSTAL-SMD-3.2X2.5" value="26MHz" x="18.415" y="35.56" rot="R270">
@@ -2740,8 +2740,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="R18" library="SparkFun-Resistors" package="0603" value="10k" x="13.97" y="19.05" rot="R90">
 <attribute name="PROD_ID" value="RES-00824" x="7.62" y="7.62" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="C18" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="16.51" y="41.275" rot="R90">
-<attribute name="PROD_ID" value="CAP-00810" x="16.51" y="41.275" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="C18" library="SparkFun-Capacitors" package="0603" value="100pF" x="16.51" y="41.275" rot="R90">
+<attribute name="PROD_ID" value="CAP-07883" x="16.51" y="41.275" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="C20" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="15.24" y="41.275" rot="R90">
 <attribute name="PROD_ID" value="CAP-00810" x="15.24" y="41.275" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -2798,7 +2798,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="FD1" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="3.0988" y="3.4798"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="21.59" y="48.26"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="23.749" y="53.213" rot="MR0"/>
-<element name="R9" library="SparkFun-Resistors" package="0603" value="10K" x="20.32" y="45.72" rot="R270">
+<element name="R9" library="SparkFun-Resistors" package="0603" value="10k" x="20.32" y="45.72" rot="R270">
 <attribute name="PROD_ID" value="RES-00824" x="20.32" y="45.72" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="U$2" library="esp32-thing-temp" package="QFN48-0.4MM" value="ESP32-2" x="12.065" y="34.925" rot="R270"/>
