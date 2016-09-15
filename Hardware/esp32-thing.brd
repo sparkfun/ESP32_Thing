@@ -3470,9 +3470,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="14.605" y1="28.6512" x2="14.605" y2="27.6479" width="0.1778" layer="1"/>
 <wire x1="12.7" y1="27.52" x2="14.4771" y2="27.52" width="0.1778" layer="1"/>
 <wire x1="14.4771" y1="27.52" x2="14.605" y2="27.6479" width="0.1778" layer="1"/>
-<via x="11.43" y="26.035" extent="1-16" drill="0.254"/>
-<wire x1="12.7" y1="27.52" x2="11.43" y2="26.25" width="0.1778" layer="1"/>
-<wire x1="11.43" y1="26.25" x2="11.43" y2="26.035" width="0.1778" layer="1"/>
+<via x="10.3886" y="26.035" extent="1-16" drill="0.254"/>
+<wire x1="10.3886" y1="26.035" x2="11.43" y2="26.035" width="0.1778" layer="16"/>
+<wire x1="10.3886" y1="26.035" x2="11.215" y2="26.035" width="0.1778" layer="1"/>
+<wire x1="11.215" y1="26.035" x2="12.7" y2="27.52" width="0.1778" layer="1"/>
 </signal>
 <signal name="FLASH_VDD">
 <contactref element="SJ3" pad="1"/>
@@ -4329,6 +4330,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="18,29,66013079304b682f"/>
 <approved hash="18,29,67013179314f6913"/>
 <approved hash="18,29,35e0f940f94135e1"/>
+<approved hash="19,16,737dd31dd21f727f"/>
+<approved hash="19,16,21d1d411cdc3a4f3"/>
 <approved hash="3,1,8990819c839c8992"/>
 <approved hash="6,1,d3470ac776c4af44"/>
 <approved hash="6,1,954dcccdb0d1e951"/>
@@ -4341,19 +4344,17 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,1,7b135dd833060b96"/>
 <approved hash="19,1,249a5658540826ca"/>
 <approved hash="4,1,a9f5127620a9f57d"/>
-<approved hash="19,1,06b8fb58fbb20652"/>
 <approved hash="19,1,01fcfc1cf80505e5"/>
 <approved hash="19,1,01fcfc1cfe3c03dc"/>
-<approved hash="19,1,58fb381b3c045ce4"/>
+<approved hash="19,1,06b8fb58fbb20652"/>
 <approved hash="19,1,58fb381b3a3d5add"/>
+<approved hash="19,1,58fb381b3c045ce4"/>
 <approved hash="19,1,5fbf3f5f3fb35f53"/>
-<approved hash="19,1,e78318631c7ee39e"/>
 <approved hash="19,1,e0c71f271fc9e029"/>
+<approved hash="19,1,e78318631c7ee39e"/>
 <approved hash="19,1,e78318631a47e5a7"/>
 <approved hash="19,1,341b875985043646"/>
 <approved hash="19,16,f8fcb1d2fec4ab17"/>
-<approved hash="19,16,737dd31dd21f727f"/>
-<approved hash="19,16,21d1d411cdc3a4f3"/>
 <approved hash="19,16,4c553cb1b9fec707"/>
 <approved hash="19,16,415f4e4cca752ea4"/>
 <approved hash="19,16,c3ddba5598683850"/>

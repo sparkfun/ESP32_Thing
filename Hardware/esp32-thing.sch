@@ -21935,6 +21935,41 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-PowerSymbols">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find power, ground, and voltage-supply symbols.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="DGND">
+<description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" prefix="GND">
+<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
+<gates>
+<gate name="1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -22085,6 +22120,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="U$2" library="esp32-thing-temp" deviceset="ESP32-2" device=""/>
 <part name="C27" library="esp32-thing-temp" deviceset="3.0NF" device="-0603-50V-5%" value="3.0nF"/>
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22362,6 +22398,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <instance part="U$2" gate="G$1" x="124.46" y="116.84"/>
 <instance part="C27" gate="G$1" x="63.5" y="76.2" rot="MR270"/>
 <instance part="GND40" gate="1" x="71.12" y="63.5"/>
+<instance part="GND42" gate="1" x="421.64" y="88.9"/>
 </instances>
 <busses>
 </busses>
@@ -22724,9 +22761,10 @@ It must be pulled high to turn the ESP32 on.</text>
 <wire x1="71.12" y1="78.74" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="93.98" x2="408.94" y2="93.98" width="0.1524" layer="91"/>
-<label x="408.94" y="93.98" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="20"/>
+<pinref part="GND42" gate="1" pin="GND"/>
+<wire x1="406.4" y1="93.98" x2="421.64" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="421.64" y1="93.98" x2="421.64" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LNA_IN" class="0">
