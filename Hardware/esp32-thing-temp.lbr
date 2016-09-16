@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -516,6 +516,10 @@
 </polygon>
 <text x="0" y="3.429" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-3.429" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<wire x1="-2.2098" y1="-0.3048" x2="-2.2098" y2="0.3048" width="0.0254" layer="41"/>
+<wire x1="2.2098" y1="0.3048" x2="2.2098" y2="-0.3048" width="0.0254" layer="41"/>
+<wire x1="-0.3048" y1="2.2098" x2="0.3048" y2="2.2098" width="0.0254" layer="41"/>
+<wire x1="0.3048" y1="-2.2098" x2="-0.3048" y2="-2.2098" width="0.0254" layer="41"/>
 </package>
 <package name="ESP-WROOM-03">
 <wire x1="-10.3" y1="-9" x2="-10.3" y2="9" width="0" layer="51"/>
@@ -1405,6 +1409,8 @@
 <wire x1="-48.26" y1="40.64" x2="-48.26" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="-48.26" y1="-40.64" x2="48.26" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="48.26" y1="-40.64" x2="48.26" y2="40.64" width="0.254" layer="94"/>
+<text x="-48.26" y="40.894" size="1.778" layer="95">&gt;Name</text>
+<text x="-48.26" y="-40.894" size="1.778" layer="96" align="top-left">&gt;Value</text>
 </symbol>
 <symbol name="CAP-1">
 <wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
@@ -1725,7 +1731,7 @@ Chip antenna with ground or secondary connection. Common with larger metal RF co
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32-2">
+<deviceset name="ESP3212" prefix="U">
 <gates>
 <gate name="G$1" symbol="ESP32-2" x="0" y="0"/>
 </gates>
@@ -1780,7 +1786,9 @@ Chip antenna with ground or secondary connection. Common with larger metal RF co
 <connect gate="G$1" pin="XTAL_P" pad="45"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-13338"/>
+</technology>
 </technologies>
 </device>
 </devices>

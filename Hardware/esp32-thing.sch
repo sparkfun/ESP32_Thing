@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -21211,6 +21211,10 @@ FQP27P06 -
 </polygon>
 <text x="0" y="3.429" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-3.429" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<wire x1="-2.2098" y1="-0.3048" x2="-2.2098" y2="0.3048" width="0.0254" layer="41"/>
+<wire x1="2.2098" y1="0.3048" x2="2.2098" y2="-0.3048" width="0.0254" layer="41"/>
+<wire x1="-0.3048" y1="2.2098" x2="0.3048" y2="2.2098" width="0.0254" layer="41"/>
+<wire x1="0.3048" y1="-2.2098" x2="-0.3048" y2="-2.2098" width="0.0254" layer="41"/>
 </package>
 <package name="SC70-6">
 <description>&lt;h3&gt;SC-88/SC70-6/SOT-363 6-pin Package&lt;/h3&gt;
@@ -21492,6 +21496,8 @@ FQP27P06 -
 <wire x1="-48.26" y1="40.64" x2="-48.26" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="-48.26" y1="-40.64" x2="48.26" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="48.26" y1="-40.64" x2="48.26" y2="40.64" width="0.254" layer="94"/>
+<text x="-48.26" y="40.894" size="1.778" layer="95">&gt;Name</text>
+<text x="-48.26" y="-40.894" size="1.778" layer="96" align="top-left">&gt;Value</text>
 </symbol>
 <symbol name="CAP-1">
 <wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
@@ -21613,7 +21619,7 @@ Chip antenna with ground or secondary connection. Common with larger metal RF co
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32-2">
+<deviceset name="ESP3212" prefix="U">
 <gates>
 <gate name="G$1" symbol="ESP32-2" x="0" y="0"/>
 </gates>
@@ -21668,7 +21674,9 @@ Chip antenna with ground or secondary connection. Common with larger metal RF co
 <connect gate="G$1" pin="XTAL_P" pad="45"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-13338"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -22117,7 +22125,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".2_INCH" value="SFE_LOGO_NAME.2_INCH"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10k"/>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="U$2" library="esp32-thing-temp" deviceset="ESP32-2" device=""/>
+<part name="U2" library="esp32-thing-temp" deviceset="ESP3212" device=""/>
 <part name="C27" library="esp32-thing-temp" deviceset="3.0NF" device="-0603-50V-5%" value="3.0nF"/>
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -22395,7 +22403,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <instance part="LOGO3" gate="G$1" x="271.78" y="2.54"/>
 <instance part="R9" gate="G$1" x="299.72" y="83.82" rot="R90"/>
 <instance part="SUPPLY17" gate="G$1" x="299.72" y="91.44"/>
-<instance part="U$2" gate="G$1" x="124.46" y="116.84"/>
+<instance part="U2" gate="G$1" x="124.46" y="116.84"/>
 <instance part="C27" gate="G$1" x="63.5" y="76.2" rot="MR270"/>
 <instance part="GND40" gate="1" x="71.12" y="63.5"/>
 <instance part="GND42" gate="1" x="421.64" y="88.9"/>
@@ -22417,10 +22425,10 @@ It must be pulled high to turn the ESP32 on.</text>
 <junction x="68.58" y="149.86"/>
 <wire x1="73.66" y1="154.94" x2="68.58" y2="154.94" width="0.1524" layer="91"/>
 <junction x="68.58" y="154.94"/>
-<pinref part="U$2" gate="G$1" pin="VDDA3P3"/>
-<pinref part="U$2" gate="G$1" pin="VDD3P3_RTC"/>
-<pinref part="U$2" gate="G$1" pin="VDD3P3_CPU"/>
-<pinref part="U$2" gate="G$1" pin="VDDA"/>
+<pinref part="U2" gate="G$1" pin="VDDA3P3"/>
+<pinref part="U2" gate="G$1" pin="VDD3P3_RTC"/>
+<pinref part="U2" gate="G$1" pin="VDD3P3_CPU"/>
+<pinref part="U2" gate="G$1" pin="VDDA"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -22499,7 +22507,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="73.66" y1="142.24" x2="71.12" y2="142.24" width="0.1524" layer="91"/>
 <label x="71.12" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="CHIP_PU"/>
+<pinref part="U2" gate="G$1" pin="CHIP_PU"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
@@ -22756,7 +22764,7 @@ It must be pulled high to turn the ESP32 on.</text>
 </segment>
 <segment>
 <wire x1="71.12" y1="78.74" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="GND40" gate="1" pin="GND"/>
 <wire x1="71.12" y1="78.74" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
 </segment>
@@ -22775,14 +22783,14 @@ It must be pulled high to turn the ESP32 on.</text>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="134.62" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
 <junction x="38.1" y="134.62"/>
-<pinref part="U$2" gate="G$1" pin="LNA_IN"/>
+<pinref part="U2" gate="G$1" pin="LNA_IN"/>
 </segment>
 </net>
 <net name="32K_XP" class="0">
 <segment>
 <wire x1="73.66" y1="119.38" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
 <label x="71.12" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="32K_XP(GPIO32/ADC1:4/TOUCH9/RTC9)"/>
+<pinref part="U2" gate="G$1" pin="32K_XP(GPIO32/ADC1:4/TOUCH9/RTC9)"/>
 </segment>
 <segment>
 <pinref part="Y2" gate="G$1" pin="1"/>
@@ -22803,7 +22811,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="73.66" y1="116.84" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
 <label x="71.12" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="32K_XN(GPIO33/ADC1:5/TOUCH8/RTC8)"/>
+<pinref part="U2" gate="G$1" pin="32K_XN(GPIO33/ADC1:5/TOUCH8/RTC8)"/>
 </segment>
 <segment>
 <pinref part="Y2" gate="G$1" pin="2"/>
@@ -22824,7 +22832,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="73.66" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
 <label x="68.58" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="VDET_1(GPI34/ADC1:6)"/>
+<pinref part="U2" gate="G$1" pin="VDET_1(GPI34/ADC1:6)"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="78.74" x2="365.76" y2="78.74" width="0.1524" layer="91"/>
@@ -22836,7 +22844,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="73.66" y1="106.68" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
 <label x="68.58" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="VDET_2(GPI35/ADC1:7)"/>
+<pinref part="U2" gate="G$1" pin="VDET_2(GPI35/ADC1:7)"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="76.2" x2="365.76" y2="76.2" width="0.1524" layer="91"/>
@@ -22847,7 +22855,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <net name="39" class="0">
 <segment>
 <label x="68.58" y="91.44" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="SENSOR_VN(GPI39/ADC1:3/RTC3)"/>
+<pinref part="U2" gate="G$1" pin="SENSOR_VN(GPI39/ADC1:3/RTC3)"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
 </segment>
@@ -22860,7 +22868,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <net name="38" class="0">
 <segment>
 <label x="68.58" y="93.98" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="SENSOR_CAPN(GPI38/ADC1:2/RTC2)"/>
+<pinref part="U2" gate="G$1" pin="SENSOR_CAPN(GPI38/ADC1:2/RTC2)"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="93.98" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
@@ -22881,7 +22889,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="SENSOR_VP(GPI36/ADC1:0/RTC0)"/>
+<pinref part="U2" gate="G$1" pin="SENSOR_VP(GPI36/ADC1:0/RTC0)"/>
 <label x="68.58" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -22896,7 +22904,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <wire x1="53.34" y1="99.06" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="99.06" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="SENSOR_CAPP(GPI37/ADC1:1/RTC1)"/>
+<pinref part="U2" gate="G$1" pin="SENSOR_CAPP(GPI37/ADC1:1/RTC1)"/>
 <label x="68.58" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -22906,7 +22914,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <wire x1="73.66" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="86.36" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="CAP1"/>
+<pinref part="U2" gate="G$1" pin="CAP1"/>
 <pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="76.2" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="76.2" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
@@ -22921,7 +22929,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
 <label x="177.8" y="78.74" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(GPIO15/ADC2:3/TOUCH3/RTC13/SPICSO/U0RTS)MTDO"/>
+<pinref part="U2" gate="G$1" pin="(GPIO15/ADC2:3/TOUCH3/RTC13/SPICSO/U0RTS)MTDO"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="71.12" x2="408.94" y2="71.12" width="0.1524" layer="91"/>
@@ -22933,7 +22941,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
 <label x="177.8" y="81.28" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(GPIO14/ADC2:6/TOUCH6/RTC16/SPICLK)MTMS"/>
+<pinref part="U2" gate="G$1" pin="(GPIO14/ADC2:6/TOUCH6/RTC16/SPICLK)MTMS"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="66.04" x2="365.76" y2="66.04" width="0.1524" layer="91"/>
@@ -22945,7 +22953,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 <label x="177.8" y="83.82" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(GPIO13/ADC2:4/TOUCH4/RTC14/SPID/U0CTS)MTCK"/>
+<pinref part="U2" gate="G$1" pin="(GPIO13/ADC2:4/TOUCH4/RTC14/SPID/U0CTS)MTCK"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="60.96" x2="365.76" y2="60.96" width="0.1524" layer="91"/>
@@ -22957,7 +22965,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="86.36" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
 <label x="177.8" y="86.36" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(GPIO12/ADC2:5/TOUCH5/RTC15/SPIQ)MTDI"/>
+<pinref part="U2" gate="G$1" pin="(GPIO12/ADC2:5/TOUCH5/RTC15/SPIQ)MTDI"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="63.5" x2="365.76" y2="63.5" width="0.1524" layer="91"/>
@@ -22974,7 +22982,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
 <label x="177.8" y="93.98" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(GPIO10/SPIWP/HS1_DATA3/U1TX)SD_DATA3"/>
+<pinref part="U2" gate="G$1" pin="(GPIO10/SPIWP/HS1_DATA3/U1TX)SD_DATA3"/>
 </segment>
 </net>
 <net name="FLASH_SHD" class="0">
@@ -22986,7 +22994,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 <label x="177.8" y="96.52" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(GPIO9/SPIHD/HS1_DATA2/U1RX)SD_DATA2"/>
+<pinref part="U2" gate="G$1" pin="(GPIO9/SPIHD/HS1_DATA2/U1RX)SD_DATA2"/>
 </segment>
 </net>
 <net name="FLASH_SDI" class="0">
@@ -22998,7 +23006,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
 <label x="177.8" y="99.06" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(GPIO8/SPID/HS1_DATA1)SD_DATA1"/>
+<pinref part="U2" gate="G$1" pin="(GPIO8/SPID/HS1_DATA1)SD_DATA1"/>
 </segment>
 </net>
 <net name="FLASH_SDO" class="0">
@@ -23010,7 +23018,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="101.6" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
 <label x="177.8" y="101.6" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(GPIO7/SPI1/HS1_DATA0)SD_DATA0"/>
+<pinref part="U2" gate="G$1" pin="(GPIO7/SPI1/HS1_DATA0)SD_DATA0"/>
 </segment>
 </net>
 <net name="FLASH_SCK" class="0">
@@ -23022,7 +23030,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="104.14" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
 <label x="177.8" y="104.14" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(GPIO6/SPICLK/HS1_CLK/U1CTS)SD_CLK"/>
+<pinref part="U2" gate="G$1" pin="(GPIO6/SPICLK/HS1_CLK/U1CTS)SD_CLK"/>
 </segment>
 </net>
 <net name="FLASH_SCS" class="0">
@@ -23034,7 +23042,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
 <label x="177.8" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(GPIO11/SPICSO/HS1_CMD/U1RTS)SD_CMD"/>
+<pinref part="U2" gate="G$1" pin="(GPIO11/SPICSO/HS1_CMD/U1RTS)SD_CMD"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -23059,7 +23067,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="106.68" x2="177.8" y2="106.68" width="0.1524" layer="91"/>
 <label x="177.8" y="106.68" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="VDD3P3_SDIO"/>
+<pinref part="U2" gate="G$1" pin="VDD3P3_SDIO"/>
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="1"/>
@@ -23074,7 +23082,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="111.76" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
 <label x="177.8" y="111.76" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(ADC2:7/TOUCH7/RTC17)GPIO27"/>
+<pinref part="U2" gate="G$1" pin="(ADC2:7/TOUCH7/RTC17)GPIO27"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="68.58" x2="365.76" y2="68.58" width="0.1524" layer="91"/>
@@ -23086,7 +23094,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
 <label x="177.8" y="114.3" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(DAC2/ADC2:9/RTC7)GPIO26"/>
+<pinref part="U2" gate="G$1" pin="(DAC2/ADC2:9/RTC7)GPIO26"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="71.12" x2="365.76" y2="71.12" width="0.1524" layer="91"/>
@@ -23103,14 +23111,14 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="119.38" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
 <label x="177.8" y="119.38" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="GPIO23"/>
+<pinref part="U2" gate="G$1" pin="GPIO23"/>
 </segment>
 </net>
 <net name="22" class="0">
 <segment>
 <wire x1="175.26" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
 <label x="177.8" y="121.92" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(VSPIWP/HS2_CLK)GPIO22"/>
+<pinref part="U2" gate="G$1" pin="(VSPIWP/HS2_CLK)GPIO22"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="83.82" x2="408.94" y2="83.82" width="0.1524" layer="91"/>
@@ -23122,7 +23130,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
 <label x="177.8" y="124.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(VSPIHD/HS2_CMD)GPIO21"/>
+<pinref part="U2" gate="G$1" pin="(VSPIHD/HS2_CMD)GPIO21"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="91.44" x2="408.94" y2="91.44" width="0.1524" layer="91"/>
@@ -23134,7 +23142,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="129.54" x2="177.8" y2="129.54" width="0.1524" layer="91"/>
 <label x="177.8" y="129.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(VSPIQ/HS2_DATA2)GPIO19"/>
+<pinref part="U2" gate="G$1" pin="(VSPIQ/HS2_DATA2)GPIO19"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="81.28" x2="408.94" y2="81.28" width="0.1524" layer="91"/>
@@ -23146,7 +23154,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="132.08" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
 <label x="177.8" y="132.08" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(VSPICLK/HS1_DATA7)GPIO18"/>
+<pinref part="U2" gate="G$1" pin="(VSPICLK/HS1_DATA7)GPIO18"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="76.2" x2="408.94" y2="76.2" width="0.1524" layer="91"/>
@@ -23158,7 +23166,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="137.16" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
 <label x="177.8" y="137.16" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(HS1_DATA4)GPIO16"/>
+<pinref part="U2" gate="G$1" pin="(HS1_DATA4)GPIO16"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="58.42" x2="408.94" y2="58.42" width="0.1524" layer="91"/>
@@ -23170,7 +23178,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="139.7" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
 <label x="177.8" y="139.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(VSPICS0/HS1_DATA6)GPIO5"/>
+<pinref part="U2" gate="G$1" pin="(VSPICS0/HS1_DATA6)GPIO5"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="73.66" x2="408.94" y2="73.66" width="0.1524" layer="91"/>
@@ -23188,7 +23196,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
 <label x="177.8" y="142.24" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(ADC2:0/TOUCH0/RTC10/SPIHD)GPIO4"/>
+<pinref part="U2" gate="G$1" pin="(ADC2:0/TOUCH0/RTC10/SPIHD)GPIO4"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="63.5" x2="408.94" y2="63.5" width="0.1524" layer="91"/>
@@ -23200,7 +23208,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="144.78" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
 <label x="177.8" y="144.78" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(ADC2:2/TOUCH2/RTC12/SPIWP)GPIO2"/>
+<pinref part="U2" gate="G$1" pin="(ADC2:2/TOUCH2/RTC12/SPIWP)GPIO2"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="68.58" x2="408.94" y2="68.58" width="0.1524" layer="91"/>
@@ -23212,7 +23220,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="152.4" x2="177.8" y2="152.4" width="0.1524" layer="91"/>
 <label x="177.8" y="152.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(GPIO3/CLK_OUT2/HS2_DATA0)U0RXD"/>
+<pinref part="U2" gate="G$1" pin="(GPIO3/CLK_OUT2/HS2_DATA0)U0RXD"/>
 </segment>
 <segment>
 <label x="393.7" y="254" size="1.27" layer="95" xref="yes"/>
@@ -23229,7 +23237,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="154.94" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
 <label x="177.8" y="154.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(GPIO1/CLK_OUT3/HS2_DATA1)U0TXD"/>
+<pinref part="U2" gate="G$1" pin="(GPIO1/CLK_OUT3/HS2_DATA1)U0TXD"/>
 </segment>
 <segment>
 <label x="393.7" y="251.46" size="1.27" layer="95" xref="yes"/>
@@ -23246,7 +23254,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="116.84" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
 <label x="177.8" y="116.84" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(DAC1/ADC2:8/RTC6)GPIO25"/>
+<pinref part="U2" gate="G$1" pin="(DAC1/ADC2:8/RTC6)GPIO25"/>
 </segment>
 <segment>
 <wire x1="363.22" y1="73.66" x2="365.76" y2="73.66" width="0.1524" layer="91"/>
@@ -23554,7 +23562,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
 <junction x="55.88" y="129.54"/>
-<pinref part="U$2" gate="G$1" pin="XTAL_P"/>
+<pinref part="U2" gate="G$1" pin="XTAL_P"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -23564,14 +23572,14 @@ It must be pulled high to turn the ESP32 on.</text>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="124.46" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
 <junction x="55.88" y="124.46"/>
-<pinref part="U$2" gate="G$1" pin="XTAL_N"/>
+<pinref part="U2" gate="G$1" pin="XTAL_N"/>
 </segment>
 </net>
 <net name="0" class="0">
 <segment>
 <wire x1="175.26" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
 <label x="177.8" y="147.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(ADC2:1/TOUCH1/RTC11/CLK_OUT1)GPIO0"/>
+<pinref part="U2" gate="G$1" pin="(ADC2:1/TOUCH1/RTC11/CLK_OUT1)GPIO0"/>
 </segment>
 <segment>
 <wire x1="375.92" y1="119.38" x2="373.38" y2="119.38" width="0.1524" layer="91"/>
@@ -23598,7 +23606,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <segment>
 <wire x1="175.26" y1="134.62" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
 <label x="177.8" y="134.62" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="(HS1_DATA5)GPIO17"/>
+<pinref part="U2" gate="G$1" pin="(HS1_DATA5)GPIO17"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="60.96" x2="408.94" y2="60.96" width="0.1524" layer="91"/>
@@ -23632,7 +23640,7 @@ It must be pulled high to turn the ESP32 on.</text>
 <pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="76.2" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="76.2" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="CAP2"/>
+<pinref part="U2" gate="G$1" pin="CAP2"/>
 <wire x1="68.58" y1="81.28" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
