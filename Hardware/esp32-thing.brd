@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -231,7 +231,7 @@
 <text x="7.6835" y="48.387" size="0.889" layer="21" font="vector" ratio="15" align="bottom-center">RST</text>
 <text x="17.8435" y="48.4505" size="0.889" layer="21" font="vector" ratio="15" align="bottom-center">0</text>
 <text x="22.9235" y="6.35" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">VBAT</text>
-<text x="13.335" y="53.721" size="1.524" layer="21" font="vector" ratio="15" align="top-center">ESP32 Thing</text>
+<text x="14.097" y="53.467" size="1.524" layer="21" font="vector" ratio="15" align="top-center">ESP32 Thing</text>
 <dimension x1="0" y1="0" x2="0" y2="58.928" x3="-5.08" y3="29.464" textsize="1.778" textratio="15" layer="47" dtype="vertical" width="0.127" unit="inch" precision="3"/>
 <dimension x1="0" y1="0" x2="25.4" y2="0" x3="12.7" y3="-7.62" textsize="1.778" textratio="15" layer="47" dtype="horizontal" width="0.127" unit="inch" precision="3"/>
 <dimension x1="0" y1="0" x2="1.27" y2="1.27" x3="0.635" y3="-2.54" textsize="1.778" textratio="15" layer="47" dtype="horizontal" width="0.127" unit="inch" precision="3"/>
@@ -242,11 +242,11 @@ LED</text>
 <text x="18.415" y="15.875" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="top-center">CHG
 PROG</text>
 <text x="12.573" y="26.162" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="top-center">SJ3</text>
-<text x="13.97" y="0.3048" size="1.27" layer="16" font="vector" ratio="15" rot="MR0" align="bottom-center">v03</text>
+<text x="13.97" y="0.3048" size="1.27" layer="16" font="vector" ratio="15" rot="MR0" align="bottom-center">v10</text>
 <text x="13.97" y="-19.05" size="1.778" layer="51" font="vector" ratio="15">Jim Lindblom</text>
 <text x="13.462" y="3.6449" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">P</text>
 <text x="15.367" y="3.6449" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">C</text>
-<text x="12.065" y="54.61" size="1.27" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">ESP32 Thing</text>
+<text x="12.065" y="54.61" size="1.524" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">ESP32 Thing</text>
 <wire x1="18.034" y1="6.9977" x2="18.034" y2="7.7597" width="0.254" layer="21"/>
 <wire x1="18.415" y1="7.3787" x2="17.653" y2="7.3787" width="0.254" layer="21"/>
 <wire x1="20.447" y1="7.3914" x2="19.685" y2="7.3914" width="0.254" layer="21"/>
@@ -256,7 +256,7 @@ PROG</text>
 <text x="11.43" y="24.511" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center-right">3V3</text>
 <text x="11.43" y="27.686" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">FLASH
 VCC</text>
-<text x="12.065" y="52.07" size="1.27" layer="22" font="vector" ratio="15" rot="MR0" align="center">http://sfe.io/t507</text>
+<text x="12.446" y="51.816" size="1.397" layer="22" font="vector" ratio="15" rot="MR0" align="center">http://sfe.io/t5O7</text>
 <text x="2.413" y="41.91" size="0.889" layer="21" font="vector" ratio="15" align="center-left">39</text>
 <text x="2.413" y="44.45" size="0.889" layer="21" font="vector" ratio="15" align="center-left">38</text>
 <text x="2.413" y="46.99" size="0.889" layer="21" font="vector" ratio="15" align="center-left">37</text>
@@ -2801,7 +2801,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="6.223" y="28.575"/>
 <element name="FD1" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="3.0988" y="3.4798"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="21.59" y="48.26"/>
-<element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="23.749" y="53.213" rot="MR0"/>
+<element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="23.749" y="53.086" rot="MR0"/>
 <element name="R9" library="SparkFun-Resistors" package="0603" value="10k" x="20.32" y="45.72" rot="R270">
 <attribute name="PROD_ID" value="RES-00824" x="20.32" y="45.72" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
@@ -3025,16 +3025,16 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="C24" pad="2"/>
 <contactref element="C25" pad="2"/>
 <polygon width="0.1778" layer="1" isolate="0.1778" rank="6">
-<vertex x="0" y="59.69"/>
+<vertex x="0" y="58.928"/>
 <vertex x="0" y="0"/>
 <vertex x="25.4" y="0"/>
-<vertex x="25.4" y="59.69"/>
+<vertex x="25.4" y="58.928"/>
 </polygon>
 <polygon width="0.1778" layer="16" isolate="0.1778" rank="6">
-<vertex x="25.4" y="59.69"/>
+<vertex x="25.4" y="58.928"/>
 <vertex x="25.4" y="0"/>
 <vertex x="0" y="0"/>
-<vertex x="0" y="59.69"/>
+<vertex x="0" y="58.928"/>
 </polygon>
 <contactref element="S1" pad="2"/>
 <contactref element="D3" pad="C"/>

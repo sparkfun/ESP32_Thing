@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -22204,7 +22204,7 @@ resistor.</text>
 <text x="261.62" y="63.5" size="2.54" layer="94" align="top-left">Reset Button</text>
 <text x="200.66" y="53.34" size="2.54" layer="94" align="top-left">GPIO5 LED</text>
 <text x="332.74" y="104.14" size="2.54" layer="94" align="top-left">Headers</text>
-<text x="421.64" y="10.16" size="2.54" layer="94" align="top-left">v03</text>
+<text x="421.64" y="10.16" size="2.54" layer="94" align="top-left">v10</text>
 <text x="354.838" y="11.43" size="2.54" layer="94" rot="MR180" align="top-left">Jim Lindblom</text>
 <text x="124.46" y="165.1" size="2.032" layer="97" font="vector" align="bottom-center">ESP32 VCC Range: 2.8-3.6V</text>
 <text x="274.32" y="162.56" size="2.032" layer="97" font="vector">SJ3 allows selection between 
