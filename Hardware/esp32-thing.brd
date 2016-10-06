@@ -194,27 +194,27 @@
 <text x="2.413" y="11.43" size="0.889" layer="21" font="vector" ratio="15" rot="R270" align="bottom-center">3V3</text>
 <text x="2.413" y="8.89" size="0.889" layer="21" font="vector" ratio="15" rot="R270" align="bottom-center">GND</text>
 <text x="2.413" y="6.477" size="0.889" layer="21" font="vector" ratio="15" align="center-left">VBAT</text>
-<text x="23.0505" y="36.83" size="0.889" layer="21" font="vector" ratio="15" align="center-right">19</text>
-<text x="23.0505" y="46.99" size="0.889" layer="21" font="vector" ratio="15" align="center-right">21</text>
-<text x="23.2029" y="39.37" size="0.889" layer="21" font="vector" ratio="15" align="center-right">22</text>
-<text x="23.2029" y="41.91" size="0.889" layer="21" font="vector" ratio="15" align="center-right">RX</text>
-<text x="23.0505" y="44.45" size="0.889" layer="21" font="vector" ratio="15" align="center-right">TX</text>
-<text x="23.0505" y="34.29" size="0.889" layer="21" font="vector" ratio="15" align="center-right">23</text>
-<text x="23.0505" y="31.75" size="0.889" layer="21" font="vector" ratio="15" align="center-right">18</text>
-<text x="23.0505" y="29.21" size="0.889" layer="21" font="vector" ratio="15" align="center-right">5</text>
-<text x="23.0505" y="26.67" size="0.889" layer="21" font="vector" ratio="15" align="center-right">15</text>
-<text x="23.0505" y="24.13" size="0.889" layer="21" font="vector" ratio="15" align="center-right">2</text>
-<text x="23.0505" y="21.59" size="0.889" layer="21" font="vector" ratio="15" align="center-right">0</text>
-<text x="23.0505" y="19.05" size="0.889" layer="21" font="vector" ratio="15" align="center-right">4</text>
-<text x="23.0505" y="16.51" size="0.889" layer="21" font="vector" ratio="15" align="center-right">17</text>
-<text x="23.0505" y="13.97" size="0.889" layer="21" font="vector" ratio="15" align="center-right">16</text>
-<text x="22.9235" y="11.43" size="0.889" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">3V3</text>
-<text x="22.9235" y="8.89" size="0.889" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">GND</text>
+<text x="23.2029" y="36.83" size="0.889" layer="21" font="vector" ratio="15" align="center-right">19</text>
+<text x="23.2029" y="46.99" size="0.889" layer="21" font="vector" ratio="15" align="center-right">21</text>
+<text x="23.2283" y="39.37" size="0.889" layer="21" font="vector" ratio="15" align="center-right">22</text>
+<text x="23.2537" y="41.91" size="0.889" layer="21" font="vector" ratio="15" align="center-right">RX</text>
+<text x="23.2029" y="44.45" size="0.889" layer="21" font="vector" ratio="15" align="center-right">TX</text>
+<text x="23.2029" y="34.29" size="0.889" layer="21" font="vector" ratio="15" align="center-right">23</text>
+<text x="23.2029" y="31.75" size="0.889" layer="21" font="vector" ratio="15" align="center-right">18</text>
+<text x="23.2029" y="29.21" size="0.889" layer="21" font="vector" ratio="15" align="center-right">5</text>
+<text x="23.2029" y="26.67" size="0.889" layer="21" font="vector" ratio="15" align="center-right">15</text>
+<text x="23.2029" y="24.13" size="0.889" layer="21" font="vector" ratio="15" align="center-right">2</text>
+<text x="23.2029" y="21.59" size="0.889" layer="21" font="vector" ratio="15" align="center-right">0</text>
+<text x="23.2029" y="19.05" size="0.889" layer="21" font="vector" ratio="15" align="center-right">4</text>
+<text x="23.2029" y="16.51" size="0.889" layer="21" font="vector" ratio="15" align="center-right">17</text>
+<text x="23.2029" y="13.97" size="0.889" layer="21" font="vector" ratio="15" align="center-right">16</text>
+<text x="23.0124" y="11.43" size="0.889" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">3V3</text>
+<text x="23.0124" y="8.89" size="0.889" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">GND</text>
 <text x="22.86" y="36.83" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">19</text>
 <text x="22.86" y="46.99" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">21</text>
 <text x="22.86" y="39.37" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">22</text>
-<text x="22.86" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">RX</text>
-<text x="22.86" y="44.45" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">TX</text>
+<text x="22.86" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">RXI</text>
+<text x="22.86" y="44.45" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">TXO</text>
 <text x="22.86" y="34.29" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">23</text>
 <text x="22.86" y="31.75" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">18</text>
 <text x="22.86" y="29.21" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">5</text>
@@ -241,7 +241,8 @@
 LED</text>
 <text x="18.415" y="15.875" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="top-center">CHG
 PROG</text>
-<text x="12.573" y="26.162" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="top-center">SJ3</text>
+<text x="12.573" y="26.162" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="top-center">FLASH
+VCC</text>
 <text x="13.97" y="0.3048" size="1.27" layer="16" font="vector" ratio="15" rot="MR0" align="bottom-center">v10</text>
 <text x="13.97" y="-19.05" size="1.778" layer="51" font="vector" ratio="15">Jim Lindblom</text>
 <text x="13.462" y="3.6449" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">P</text>
@@ -254,14 +255,13 @@ PROG</text>
 <wire x1="18.415" y1="7.3914" x2="17.653" y2="7.3914" width="0.254" layer="22"/>
 <wire x1="19.685" y1="7.3914" x2="20.447" y2="7.3914" width="0.254" layer="22"/>
 <text x="11.43" y="24.511" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center-right">3V3</text>
-<text x="11.43" y="27.686" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">FLASH
-VCC</text>
+<text x="11.43" y="27.686" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">IC</text>
 <text x="12.446" y="51.816" size="1.397" layer="22" font="vector" ratio="15" rot="MR0" align="center">http://sfe.io/t5O7</text>
 <text x="2.413" y="41.91" size="0.889" layer="21" font="vector" ratio="15" align="center-left">39</text>
 <text x="2.413" y="44.45" size="0.889" layer="21" font="vector" ratio="15" align="center-left">38</text>
 <text x="2.413" y="46.99" size="0.889" layer="21" font="vector" ratio="15" align="center-left">37</text>
 <text x="2.413" y="49.53" size="0.889" layer="21" font="vector" ratio="15" align="center-left">36</text>
-<text x="23.0505" y="49.53" size="0.889" layer="21" font="vector" ratio="15" align="center-right">GND</text>
+<text x="23.1267" y="49.53" size="0.889" layer="21" font="vector" ratio="15" align="center-right">GND</text>
 <text x="22.86" y="49.53" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">GND</text>
 </plain>
 <libraries>
@@ -3155,6 +3155,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="10.16" y="43.2054" extent="1-16" drill="0.254"/>
 <via x="7.9248" y="30.0355" extent="1-16" drill="0.254"/>
 <via x="16.6116" y="37.4904" extent="1-16" drill="0.254"/>
+<wire x1="8.5217" y1="3.4798" x2="8.8011" y2="3.4798" width="0.2032" layer="1"/>
+<wire x1="8.8011" y1="3.4798" x2="8.9154" y2="3.5941" width="0.2032" layer="1"/>
+<wire x1="8.9154" y1="3.5941" x2="8.9154" y2="4.7371" width="0.2032" layer="1"/>
 </signal>
 <signal name="LNA_IN">
 <contactref element="L1" pad="1"/>
@@ -4347,15 +4350,16 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,1,7b135dd833060b96"/>
 <approved hash="19,1,249a5658540826ca"/>
 <approved hash="4,1,a9f5127620a9f57d"/>
+<approved hash="4,1,ad895828d8fe2daa"/>
 <approved hash="19,1,01fcfc1cf80505e5"/>
 <approved hash="19,1,01fcfc1cfe3c03dc"/>
 <approved hash="19,1,06b8fb58fbb20652"/>
+<approved hash="19,1,5fbf3f5f3fb35f53"/>
 <approved hash="19,1,58fb381b3c045ce4"/>
 <approved hash="19,1,58fb381b3a3d5add"/>
-<approved hash="19,1,5fbf3f5f3fb35f53"/>
-<approved hash="19,1,e78318631c7ee39e"/>
-<approved hash="19,1,e0c71f271fc9e029"/>
 <approved hash="19,1,e78318631a47e5a7"/>
+<approved hash="19,1,e0c71f271fc9e029"/>
+<approved hash="19,1,e78318631c7ee39e"/>
 <approved hash="19,1,341b875985043646"/>
 <approved hash="19,16,f8fcb1d2fec4ab17"/>
 <approved hash="19,16,4c553cb1b9fec707"/>
