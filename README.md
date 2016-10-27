@@ -22,7 +22,7 @@ Documentation
 
 Product Versions
 ----------------
-* [DEV-13907](part URLhttps://www.sparkfun.com/products/13907) - Initial release of the ESP32 Thing.
+* [DEV-13907](https://www.sparkfun.com/products/13907) - Initial release of the ESP32 Thing.
 
 Version History
 ---------------
